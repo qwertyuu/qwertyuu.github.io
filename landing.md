@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title:  "Welcome to Jekyll!"
 categories: jekyll update
 ---
