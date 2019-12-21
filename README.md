@@ -5,4 +5,4 @@ Moi! En tant qu'égocentrique!
 run `bundle install`
 
 # publish website
-use `jgb -b master -r develop` to publish to github pages
+use `jgd -b master -r develop` to publish to github pages
