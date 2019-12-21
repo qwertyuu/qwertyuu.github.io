@@ -252,6 +252,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 203)
   jekyll (~> 3.8.5)
+  jekyll-remote-theme
   minimal-mistakes-jekyll
 
 BUNDLED WITH
