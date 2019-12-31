@@ -4,7 +4,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/splash2.jpg
+  overlay_image: /assets/images/splash2-compressed.jpg
   actions:
     - label: "Contactez-moi"
       url: "#contact"
@@ -73,5 +73,5 @@ Vous avez besoin d'un programmeur d'expérience et passionné dans votre équipe
 
 - <i class="fas fa-fw fa-envelope-square"></i> [Courriel](mailto:cotlarrc@gmail.com)
 - <i class="fab fa-fw fa-facebook-square"></i> [Facebook](https://facebook.com/qwertyuu)
-- <i class="fas fa-fw fa-file-alt"></i> [Curriculum Vitae](https://docs.google.com/document/d/e/2PACX-1vTsLEuAKDvwK9eiSWU-r8ZcgDNbxTVocQ9i_5uQ_XI6P6wBPDWHzdsopjCJan9b4cqSKTvNrIFjk1-k/pub)
+- <i class="fas fa-fw fa-file-alt"></i> [Curriculum Vitae](https://docs.google.com/document/d/e/2PACX-1vQxpPqn2mMkbFkYExj4nroh4VHqq7Z7E5lUf3yRIoCyfZckPIe5w9_pLtqDQak-1ym3EnVc4bn83z80/pub)
 - <i class="fab fa-fw fa-github"></i> [GitHub](https://github.com/qwertyuu?tab=repositories)
