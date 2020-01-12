@@ -28,11 +28,10 @@ frameskip:
 - image_path: "/assets/images/frameskip.gif"
   alt: frameskip
   title: Frameskip
-  excerpt: Ce jeu **Unity 3D** a vu le jour en 4h. Un ami et moi l'avons fait dans
-    le cadre d'une compétition de jeux sur le site itch.io! Le but du jeu est simple,
-    se sauver de Gilles le monstre. Il a gagné dans la catégorie [Most innovative
-    game concept](https://itch.io/jam/icantdraw/results/most-innovative-game-concept)
-    de la compétition.
+  excerpt: |-
+    Ce jeu **Unity 3D** a vu le jour en 4h. Un ami et moi l'avons fait dans le cadre d'une compétition de jeux sur le site itch.io! Le but du jeu est simple, se sauver de Gilles le monstre.
+
+    Frameskip a été nommé [Most innovative game concept](https://itch.io/jam/icantdraw/results/most-innovative-game-concept) lors de la compétition.
   url: https://bodro.itch.io/frameskip
   btn_label: Je veux jouer!
   btn_class: btn--primary
