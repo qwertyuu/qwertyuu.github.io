@@ -1,5 +1,5 @@
 ---
-title: Raphaël Côté
+title: Raphaël Côté, Codeur né
 layout: splash
 header:
   overlay_color: "#000"
