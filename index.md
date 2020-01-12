@@ -1,5 +1,5 @@
 ---
-title: Raphaël Côté, Codeur né
+title: Raphaël Côté et sa programmerie
 layout: splash
 header:
   overlay_color: "#000"
