@@ -23,7 +23,7 @@ imageinn:
 
     Utilise Processing (Java) et PHP pour le site.
 
-    ###Visuel du site fait par l'unique [Sarah-Jane Munger](http://sarahjanemunger.com/)
+    ### Visuel du site fait par l'unique [Sarah-Jane Munger](http://sarahjanemunger.com/)
 frameskip:
 - image_path: "/assets/images/frameskip.gif"
   alt: frameskip
