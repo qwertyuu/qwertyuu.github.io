@@ -62,7 +62,7 @@ discovreddit:
     sur le contenu d'une communauté reddit. Il suffit d'entrer le nom de la communauté
     et chaque video ou chanson contenu dans cette communauté en ce moment sera joué
     un après l'autre
-  url: https://raphael.cote/discovreddit/
+  url: https://raphaelcote.com/discovreddit/
   btn_label: Je veux essayer!
   btn_class: btn--primary
 published: false
