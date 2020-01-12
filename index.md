@@ -49,11 +49,10 @@ katahdin:
 - image_path: "/assets/images/logo-katahdin.png"
   alt: katahdin vr logo
   title: Katahdin VR
-  excerpt: Dans le cadre d'un GameJam (création de jeu vidéo en 48h) à l'Université
-    du Québec à Chicoutimi en Octobre 2018, j'ai eu la chance de travailler à développer
-    un jeu de VR avec quelques membres de [Totema Studio](https://totemastudio.com/).
-    Le jeu fonctionne avec les casques de VR Oculus Rift et utilise la SDK d'Oculus
-    dans Unity 3D.
+  excerpt: |-
+    Dans le cadre d'un GameJam (création de jeu vidéo en 48h) à l'Université du Québec à Chicoutimi en Octobre 2018, j'ai eu la chance de travailler à développer un jeu de VR avec quelques membres de [Totema Studio](https://totemastudio.com/).
+
+    Le jeu fonctionne avec les casques de VR Oculus Rift et utilise la SDK d'Oculus dans Unity 3D.
   url: https://www.youtube.com/watch?v=lLoRI-Lk6kk
   btn_label: Vidéo de démo
   btn_class: btn--primary
