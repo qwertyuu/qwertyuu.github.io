@@ -23,7 +23,7 @@ jobs:
           paths:
             - vendor/bundle
       - run:
-          name: Jekyll build and deploy
+          name: Setup github before push
           command: git config --global user.email "idkwhatismy@email.com" && git config --global user.name "CircleCI"
       - run:
           name: Jekyll build and deploy
