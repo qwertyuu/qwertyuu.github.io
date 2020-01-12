@@ -21,7 +21,7 @@ jobs:
             - vendor/bundle
       - run:
           name: Jekyll build and deploy
-          command: jgd -b master -r develop
+          command: bundle exec jgd -b master -r develop
 workflows:
   version: 2
   test-deploy:
