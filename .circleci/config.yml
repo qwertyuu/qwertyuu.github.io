@@ -21,6 +21,9 @@ jobs:
             - vendor/bundle
       - run:
           name: Jekyll build and deploy
+          command: git config --global user.email "idkwhatismy@email.com" && git config --global user.name "CircleCI"
+      - run:
+          name: Jekyll build and deploy
           command: bundle exec jgd -b master -r develop
 workflows:
   version: 2
