@@ -4,8 +4,8 @@ jobs:
     working_directory: ~/repo
     docker:
       - image: circleci/ruby:2.6
-    environment:
-      BUNDLE_PATH: ~/repo/vendor/bundle
+        environment:
+          BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
       - checkout
       - restore_cache:
@@ -19,9 +19,6 @@ jobs:
           key: rubygems-v1-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
-      - run:
-          name: find jgd
-          command: find / -name jgd
       - run:
           name: Jekyll build and deploy
           command: jgd -b master -r develop
