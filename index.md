@@ -18,9 +18,9 @@ imageinn:
   btn_label: Je veux voir!
   btn_class: btn--primary
   url: http://saclique.ca/demoimage/?date=2019-12-06
-  excerpt: Un algorithme d'évolution appliqué à dessiner, c'est ça que ça donne! Depuis
-    plusieurs années à chaque jour, l'image du jour provenant de Wikipedia est passée
-    dans ce programme et est mis en ligne.
+  excerpt: |-
+    Un algorithme d'évolution appliqué à dessiner, c'est ça que ça donne! Depuis plusieurs années à chaque jour, l'image du jour provenant de Wikipedia est passée dans ce programme et est mise en ligne!
+    Utilise Processing (Java) et PHP pour le site. Visuel du site fait par http://sarahjanemunger.com/
 frameskip:
 - image_path: "/assets/images/frameskip.gif"
   alt: frameskip
@@ -65,6 +65,7 @@ discovreddit:
   url: https://raphaelcote.com/discovreddit/
   btn_label: Je veux essayer!
   btn_class: btn--primary
+published: false
 
 ---
 # Mes projets
