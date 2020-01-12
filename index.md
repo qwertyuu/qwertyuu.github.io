@@ -55,7 +55,7 @@ katahdin:
   btn_label: Vidéo de démo
   btn_class: btn--primary
 discovreddit:
-- image_path: "/assets/images/discovreddit.png"
+- image_path: https://raw.githubusercontent.com/qwertyuu/discovreddit/c6b19113cce6bfe747eb0ef67659d14a80c5d87d/docs/demo.png
   alt: discovreddit image
   title: Discovreddit
   excerpt: Simple site permettant de créer une liste de lecture automatiquement basé
