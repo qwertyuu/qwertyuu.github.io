@@ -27,6 +27,6 @@ workflows:
   test-deploy:
     jobs:
       - build
-          filters:
-            branches:
-              only: develop
+        filters:
+          branches:
+            only: develop
