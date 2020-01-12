@@ -67,7 +67,6 @@ discovreddit:
   url: https://raphaelcote.com/discovreddit/
   btn_label: Je veux essayer!
   btn_class: btn--primary
-published: false
 
 ---
 # Mes projets
