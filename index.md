@@ -84,7 +84,7 @@ discovreddit:
 
 # Contact
 
-Vous avez besoin d'un programmeur d'expérience et passionné dans votre équipe? Contactez-moi!
+Voici où vous pouvez me trouver. Contactez-moi!
 
 - <i class="fas fa-fw fa-envelope-square"></i> [Courriel](mailto:cotlarrc@gmail.com)
 - <i class="fab fa-fw fa-facebook-square"></i> [Facebook](https://facebook.com/qwertyuu)
