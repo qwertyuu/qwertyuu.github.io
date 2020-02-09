@@ -88,7 +88,7 @@ published: false
 Voici où vous pouvez me trouver. Contactez-moi!
 
 - <i class="fas fa-fw fa-envelope-square"></i> [Courriel](mailto:cotlarrc@gmail.com)
-- <i class="fab fa-fw fa-linkedin-square"></i> [LinkedIn](https://www.linkedin.com/in/raphael-cote-sag)
+- <i class="fab fa-fw fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/raphael-cote-sag)
 - <i class="fab fa-fw fa-facebook-square"></i> [Facebook](https://facebook.com/qwertyuu)
 - <i class="fas fa-fw fa-file-alt"></i> [Curriculum Vitae](https://docs.google.com/document/d/e/2PACX-1vQxpPqn2mMkbFkYExj4nroh4VHqq7Z7E5lUf3yRIoCyfZckPIe5w9_pLtqDQak-1ym3EnVc4bn83z80/pub)
 - <i class="fab fa-fw fa-github"></i> [GitHub](https://github.com/qwertyuu?tab=repositories)
