@@ -23,7 +23,7 @@ imageinn:
   url: http://saclique.ca/demoimage/?date=2019-12-06
   excerpt: |-
     An evolutionary algorithm applied to drawing, that's what it looks like! For several years now, every day, the image of the day from Wikipedia has passed through this program and is put online!
-    
+
     Uses Processing (Java) and PHP for the site.
 
     <sup>Visual of the site made by the one and only [Sarah-Jane Munger](http://sarahjanemunger.com/)</sup>
@@ -33,7 +33,7 @@ frameskip:
   title: Frameskip
   excerpt: |-
     This **Unity 3D** game was created in 4 hours. A friend and I made it during a games competition on itch.io! The goal of the game is simple, to save ourselves from Gilles the monster.
-    
+
     Frameskip was named [Most innovative game concept](https://itch.io/jam/icantdraw/results/most-innovative-game-concept) during the competition.
   url: https://bodro.itch.io/frameskip
   btn_label: I want to play!
@@ -42,7 +42,8 @@ epitacle:
 - image_path: "/assets/images/epitacle.gif"
   alt: epitacle
   title: Epitacle
-  excerpt: This simulation game is actually a cellular automaton that is actually mesmerizing. Created in one evening with the same friend as for Frameskip!
+  excerpt: This simulation game is actually a cellular automaton that is actually
+    mesmerizing. Created in one evening with the same friend as for Frameskip!
   url: https://qw3rtyuu.itch.io/epitacle
   btn_label: I want to see!
   btn_class: btn--primary
@@ -51,9 +52,9 @@ katahdin:
   alt: katahdin vr logo
   title: Katahdin VR
   excerpt: |-
-    As part of a GameJam (video game creation in 48 hours) at the Université du Québec à Chicoutimi in October 2018, I had the chance to work on developing an RV game with some members of [Totema Studio](https://totemastudio.com/).
-    
-    The game runs on Oculus Rift VR helmets and uses the Oculus SDK in Unity 3D.
+    As part of a GameJam (video game creation in 48 hours) at the Université du Québec à Chicoutimi in October 2018, I had the chance to work on developing a VR game with some members of [Totema Studio](https://totemastudio.com/).
+
+    The game runs on Oculus Rift VR helmets and uses the Oculus SDK in Unity 3D. I made the entirety of the VR adaptation and VR game controls
   url: https://www.youtube.com/watch?v=lLoRI-Lk6kk
   btn_label: Demo video
   btn_class: btn--primary
@@ -61,10 +62,10 @@ discovreddit:
 - image_path: https://raw.githubusercontent.com/qwertyuu/discovreddit/c6b19113cce6bfe747eb0ef67659d14a80c5d87d/docs/demo.png
   alt: discovreddit image
   title: Discovreddit
-  excerpt: Simple site allowing to create a playlist automatically based on
-    on the content of a reddit community. Just enter the name of the community
-    and every video or song contained in this community at this time will be played.
-    one by one
+  excerpt: Simple site allowing to create a playlist automatically based on on the
+    content of a reddit community. Just enter the name of the community and every
+    video or song contained in this community at this time will be played. one by
+    one
   url: https://raphaelcote.com/discovreddit/
   btn_label: I want to try!
   btn_class: btn--primary
