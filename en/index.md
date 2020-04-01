@@ -42,8 +42,10 @@ epitacle:
 - image_path: "/assets/images/epitacle.gif"
   alt: epitacle
   title: Epitacle
-  excerpt: This simulation game is actually a cellular automaton that is actually
-    mesmerizing. Created in one evening with the same friend as for Frameskip!
+  excerpt: This simulation game is actually a cellular automaton that is very mesmerizing.
+    Created in one evening with the same friend as for Frameskip! Also, the cellular
+    automaton is run in a shader, which, I think, is kind of a big achievement in
+    itself. The rules for the automaton are encoded on a texture file for the shader.
   url: https://qw3rtyuu.itch.io/epitacle
   btn_label: I want to see!
   btn_class: btn--primary
