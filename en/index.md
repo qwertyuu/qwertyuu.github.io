@@ -38,6 +38,15 @@ frameskip:
   url: https://bodro.itch.io/frameskip
   btn_label: I want to play!
   btn_class: btn--primary
+pcb:
+- image_path: "https://img.itch.zone/aW1nLzM0OTA1MTYuZ2lm/347x500/wvmt5f.gif"
+  alt: pcb
+  title: PCB
+  excerpt: PCB is a "clicker" type game that consists of collecting more and more money by buying parts for your printed circuit board. It also has the particularity of being able to create music with certain kinds of components, inspired by [Pocket Operator](https://www.youtube.com/watch?v=H8DYAChg9AM) controllers.
+    The project was made in Unity 3D
+  url: https://qw3rtyuu.itch.io/pcb
+  btn_label: Je veux jouer!
+  btn_class: btn--primary
 epitacle:
 - image_path: "/assets/images/epitacle.gif"
   alt: epitacle
@@ -79,13 +88,13 @@ discovreddit:
 
 {% include feature_row id="imageinn" type="left" %}
 
-{% include feature_row id="discovreddit" type="right" %}
+{% include feature_row id="katahdin" type="right" %}
 
-{% include feature_row id="katahdin" type="left" %}
+{% include feature_row id="frameskip" type="left" %}
 
-{% include feature_row id="frameskip" type="right" %}
+{% include feature_row id="pcb" type="right" %}
 
-{% include feature_row id="epitacle" type="left" %}
+{% include feature_row id="discovreddit" type="left" %}
 
 # Contact
 

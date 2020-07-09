@@ -47,6 +47,15 @@ epitacle:
   url: https://qw3rtyuu.itch.io/epitacle
   btn_label: Je veux voir!
   btn_class: btn--primary
+pcb:
+- image_path: "https://img.itch.zone/aW1nLzM0OTA1MTYuZ2lm/347x500/wvmt5f.gif"
+  alt: pcb
+  title: PCB
+  excerpt: PCB est un jeu de type "clicker" qui consiste à amasser de plus en plus d'argent en achetant des pièces pour son circuit imprimé. Il a aussi la particularité de pouvoir créer de la musique avec certaines sortes de composantes, inspiré des controlleurs de type [Pocket Operator](https://www.youtube.com/watch?v=H8DYAChg9AM)
+    Le projet a été créé dans Unity 3D
+  url: https://qw3rtyuu.itch.io/pcb
+  btn_label: Je veux jouer!
+  btn_class: btn--primary
 katahdin:
 - image_path: "/assets/images/logo-katahdin.png"
   alt: katahdin vr logo
@@ -77,13 +86,13 @@ discovreddit:
 
 {% include feature_row id="imageinn" type="left" %}
 
-{% include feature_row id="discovreddit" type="right" %}
+{% include feature_row id="katahdin" type="right" %}
 
-{% include feature_row id="katahdin" type="left" %}
+{% include feature_row id="frameskip" type="left" %}
 
-{% include feature_row id="frameskip" type="right" %}
+{% include feature_row id="pcb" type="right" %}
 
-{% include feature_row id="epitacle" type="left" %}
+{% include feature_row id="discovreddit" type="left" %}
 
 # Contact
 
