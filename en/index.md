@@ -25,8 +25,6 @@ imageinn:
     An evolutionary algorithm applied to drawing, that's what it looks like! For several years now, every day, the image of the day from Wikipedia has passed through this program and is put online!
 
     Uses Processing (Java) and PHP for the site.
-
-    <sup>Visual of the site made by the one and only [Sarah-Jane Munger](http://sarahjanemunger.com/)</sup>
 frameskip:
 - image_path: "/assets/images/frameskip.gif"
   alt: frameskip
@@ -34,16 +32,19 @@ frameskip:
   excerpt: |-
     This **Unity 3D** game was created in 4 hours. A friend and I made it during a games competition on itch.io! The goal of the game is simple, to save ourselves from Gilles the monster.
 
-    Frameskip was named [Most innovative game concept](https://itch.io/jam/icantdraw/results/most-innovative-game-concept) during the competition.
+    Frameskip was named [Most innovative game concept](https://web.archive.org/web/20190502071114/https://itch.io/jam/icantdraw/results/most-innovative-game-concept) during the competition.
   url: https://bodro.itch.io/frameskip
   btn_label: I want to play!
   btn_class: btn--primary
 pcb:
-- image_path: "https://img.itch.zone/aW1nLzM0OTA1MTYuZ2lm/347x500/wvmt5f.gif"
+- image_path: https://img.itch.zone/aW1nLzM0OTA1MTYuZ2lm/347x500/wvmt5f.gif
   alt: pcb
   title: PCB
-  excerpt: PCB is a "clicker" type game that consists of collecting more and more money by buying parts for your printed circuit board. It also has the particularity of being able to create music with certain kinds of components, inspired by [Pocket Operator](https://www.youtube.com/watch?v=H8DYAChg9AM) controllers.
-    The project was made in Unity 3D
+  excerpt: PCB is a "clicker" type game that consists of collecting more and more
+    money by buying parts for your printed circuit board. It also has the particularity
+    of being able to create music with certain kinds of components, inspired by [Pocket
+    Operator](https://www.youtube.com/watch?v=H8DYAChg9AM) controllers. The project
+    was made in Unity 3D
   url: https://qw3rtyuu.itch.io/pcb
   btn_label: Je veux jouer!
   btn_class: btn--primary
