@@ -25,8 +25,6 @@ imageinn:
     Un algorithme d'évolution appliqué à dessiner, c'est ça que ça donne! Depuis plusieurs années à chaque jour, l'image du jour provenant de Wikipedia est passée dans ce programme et est mise en ligne!
 
     Utilise Processing (Java) et PHP pour le site.
-
-    <sup>Visuel du site fait par l'unique [Sarah-Jane Munger](http://sarahjanemunger.com/)</sup>
 frameskip:
 - image_path: "/assets/images/frameskip.gif"
   alt: frameskip
@@ -34,7 +32,7 @@ frameskip:
   excerpt: |-
     Ce jeu **Unity 3D** a vu le jour en 4h. Un ami et moi l'avons fait dans le cadre d'une compétition de jeux sur le site itch.io! Le but du jeu est simple, se sauver de Gilles le monstre.
 
-    Frameskip a été nommé [Most innovative game concept](https://itch.io/jam/icantdraw/results/most-innovative-game-concept) lors de la compétition.
+    Frameskip a été nommé [Most innovative game concept](https://web.archive.org/web/20190502071114/https://itch.io/jam/icantdraw/results/most-innovative-game-concept) lors de la compétition.
   url: https://bodro.itch.io/frameskip
   btn_label: Je veux jouer!
   btn_class: btn--primary
