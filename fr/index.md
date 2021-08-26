@@ -1,7 +1,7 @@
 ---
 title: Raphaël Côté et sa programmerie
 layout: splash
-lang: en
+lang: fr
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -35,9 +35,9 @@ essair:
   btn_class: btn--primary
   url: https://www.youtube.com/watch?v=wnFMNro_st4
   excerpt: |-
-  Un podcast par deux passionnés techno et info, c'est ça que ça donne!
-  
-  Chaque mercredi à 19h heure de l'est
+    Un podcast par deux passionnés techno et info, c'est ça que ça donne!
+    
+    Chaque mercredi à 19h heure de l'est
 frameskip:
 - image_path: "/assets/images/frameskip.gif"
   alt: frameskip

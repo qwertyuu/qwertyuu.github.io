@@ -1,7 +1,7 @@
 ---
 title: Raphaël Côté and his codery
 layout: splash
-lang: fr
+lang: en
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -22,11 +22,11 @@ opensea:
   btn_class: btn--primary
   url: http://saclique.ca/demoimage/?date=2019-12-06
   excerpt: |-
-  An evolutionary algorithm applied to drawing, that's what it looks like! For several years now, every day, the image of the day from Wikipedia has passed through this program and is put online!
-
-  The result is sold as a piece of art on the Ethereum blockchain through OpenSea.
-
-  Uses Processing (Java) and PHP for the site.
+    An evolutionary algorithm applied to drawing, that's what it looks like! For several years now, every day, the image of the day from Wikipedia has passed through this program and is put online!
+  
+    The result is sold as a piece of art on the Ethereum blockchain through OpenSea.
+  
+    Uses Processing (Java) and PHP for the site.
 essair:
 - image_path: assets/images/sam_et_raph.PNG
   alt: sam et raph conversent
@@ -35,9 +35,9 @@ essair:
   btn_class: btn--primary
   url: https://www.youtube.com/watch?v=wnFMNro_st4
   excerpt: |-
-  A french-speaking podcast about technology and computers. All subjects allowed!
-  
-  Every wednesday 7PM eastern time
+    A french-speaking podcast about technology and computers. All subjects allowed!
+    
+    Every wednesday 7PM eastern time
 frameskip:
 - image_path: "/assets/images/frameskip.gif"
   alt: frameskip
