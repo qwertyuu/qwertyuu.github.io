@@ -11,20 +11,33 @@ header:
     url: "/fr/#contact"
   - label: English version
     url: "/en"
-excerpt: Je suis programmeur, enthousiaste AI et éternel curieux de Saguenay au Québec!
+excerpt: Je suis programmeur, enthousiaste AI, crypto et éternel curieux de Saguenay au Québec!
 separator:
 - excerpt: ''
-imageinn:
+opensea:
 - image_path: assets/images/demo_imageinn_montage.jpg
-  alt: demo projet Imageinn
-  title: ImageInn
+  alt: NFT sur OpenSea
+  title: NFT Crypto sur OpenSea
   btn_label: Je veux voir!
   btn_class: btn--primary
-  url: http://saclique.ca/demoimage/?date=2019-12-06
+  url: https://opensea.io/collection/evo-paint-beta
   excerpt: |-
     Un algorithme d'évolution appliqué à dessiner, c'est ça que ça donne! Depuis plusieurs années à chaque jour, l'image du jour provenant de Wikipedia est passée dans ce programme et est mise en ligne!
 
-    Utilise Processing (Java) et PHP pour le site.
+    Le résultat est vendu comme oeuvre d'art sur la blockchain Ethereum via OpenSea.
+  
+    Utilise Processing (Java) pour la génération. 
+essair:
+- image_path: assets/images/sam_et_raph.PNG
+  alt: sam et raph conversent
+  title: Podcast Sam et Raph conversent
+  btn_label: Je veux regarder!
+  btn_class: btn--primary
+  url: https://www.youtube.com/watch?v=wnFMNro_st4
+  excerpt: |-
+  Un podcast par deux passionnés techno et info, c'est ça que ça donne!
+  
+  Chaque mercredi à 19h heure de l'est
 frameskip:
 - image_path: "/assets/images/frameskip.gif"
   alt: frameskip
@@ -85,15 +98,17 @@ discovreddit:
 
 {% include feature_row id="separator" type="center" %}
 
-{% include feature_row id="imageinn" type="left" %}
+{% include feature_row id="opensea" type="left" %}
 
-{% include feature_row id="katahdin" type="right" %}
+{% include feature_row id="essair" type="right" %}
 
-{% include feature_row id="frameskip" type="left" %}
+{% include feature_row id="katahdin" type="left" %}
 
-{% include feature_row id="pcb" type="right" %}
+{% include feature_row id="frameskip" type="right" %}
 
-{% include feature_row id="discovreddit" type="left" %}
+{% include feature_row id="pcb" type="left" %}
+
+{% include feature_row id="discovreddit" type="right" %}
 
 # Contact
 

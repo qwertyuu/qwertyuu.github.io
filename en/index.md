@@ -11,20 +11,33 @@ header:
     url: "/en/#contact"
   - label: Version Française
     url: "/fr"
-excerpt: I am a programmer, AI enthusiast and eternally curious from Saguenay, Quebec!
+excerpt: I am a programmer, AI and Crypto enthusiast and eternally curious from Saguenay, Quebec!
 separator:
 - excerpt: ''
-imageinn:
+opensea:
 - image_path: assets/images/demo_imageinn_montage.jpg
-  alt: demo project Imageinn
-  title: ImageInn
+  alt: NFT on OpenSea
+  title: NFT Crypto on OpenSea
   btn_label: I want to see!
   btn_class: btn--primary
   url: http://saclique.ca/demoimage/?date=2019-12-06
   excerpt: |-
-    An evolutionary algorithm applied to drawing, that's what it looks like! For several years now, every day, the image of the day from Wikipedia has passed through this program and is put online!
+  An evolutionary algorithm applied to drawing, that's what it looks like! For several years now, every day, the image of the day from Wikipedia has passed through this program and is put online!
 
-    Uses Processing (Java) and PHP for the site.
+  The result is sold as a piece of art on the Ethereum blockchain through OpenSea.
+
+  Uses Processing (Java) and PHP for the site.
+essair:
+- image_path: assets/images/sam_et_raph.PNG
+  alt: sam et raph conversent
+  title: Sam et Raph conversent Podcast
+  btn_label: Je want to watch!
+  btn_class: btn--primary
+  url: https://www.youtube.com/watch?v=wnFMNro_st4
+  excerpt: |-
+  A french-speaking podcast about technology and computers. All subjects allowed!
+  
+  Every wednesday 7PM eastern time
 frameskip:
 - image_path: "/assets/images/frameskip.gif"
   alt: frameskip
@@ -87,15 +100,17 @@ discovreddit:
 
 {% include feature_row id="separator" type="center" %}
 
-{% include feature_row id="imageinn" type="left" %}
+{% include feature_row id="opensea" type="left" %}
 
-{% include feature_row id="katahdin" type="right" %}
+{% include feature_row id="essair" type="right" %}
 
-{% include feature_row id="frameskip" type="left" %}
+{% include feature_row id="katahdin" type="left" %}
 
-{% include feature_row id="pcb" type="right" %}
+{% include feature_row id="frameskip" type="right" %}
 
-{% include feature_row id="discovreddit" type="left" %}
+{% include feature_row id="pcb" type="left" %}
+
+{% include feature_row id="discovreddit" type="right" %}
 
 # Contact
 
