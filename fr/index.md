@@ -11,7 +11,8 @@ header:
     url: "/fr/#contact"
   - label: English version
     url: "/en"
-excerpt: Je suis programmeur, enthousiaste AI, crypto et éternel curieux de Saguenay au Québec!
+excerpt: Je suis programmeur, enthousiaste AI, crypto et éternel curieux de Saguenay
+  au Québec!
 separator:
 - excerpt: ''
 opensea:
@@ -21,12 +22,11 @@ opensea:
   btn_label: Je veux voir!
   btn_class: btn--primary
   url: https://opensea.io/collection/evo-paint-beta
-  excerpt: |-
-    Un algorithme d'évolution appliqué à dessiner, c'est ça que ça donne! Depuis plusieurs années à chaque jour, l'image du jour provenant de Wikipedia est passée dans ce programme et est mise en ligne!
-
-    Le résultat est vendu comme oeuvre d'art sur la blockchain Ethereum via OpenSea.
-  
-    Utilise Processing (Java) pour la génération. 
+  excerpt: "Un algorithme d'évolution appliqué à dessiner, c'est ça que ça donne!
+    Depuis plusieurs années à chaque jour, l'image du jour provenant de Wikipedia
+    est passée dans ce programme et est mise en ligne!\n\nLe résultat est vendu comme
+    oeuvre d'art sur la blockchain Ethereum via OpenSea.\n\nUtilise Processing (Java)
+    pour la génération. "
 essair:
 - image_path: assets/images/sam_et_raph.PNG
   alt: sam et raph conversent
@@ -34,10 +34,7 @@ essair:
   btn_label: Je veux regarder!
   btn_class: btn--primary
   url: https://www.youtube.com/watch?v=wnFMNro_st4
-  excerpt: |-
-    Un podcast par deux passionnés techno et info, c'est ça que ça donne!
-    
-    Chaque mercredi à 19h heure de l'est
+  excerpt: Un podcast par deux passionnés techno et info, c'est ça que ça donne!
 frameskip:
 - image_path: "/assets/images/frameskip.gif"
   alt: frameskip
