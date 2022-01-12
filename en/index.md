@@ -11,7 +11,8 @@ header:
     url: "/en/#contact"
   - label: Version Française
     url: "/fr"
-excerpt: I am a programmer, AI and Crypto enthusiast and eternally curious from Saguenay, Quebec!
+excerpt: I am a programmer, AI and Crypto enthusiast and eternally curious from Saguenay,
+  Quebec!
 separator:
 - excerpt: ''
 opensea:
@@ -23,9 +24,9 @@ opensea:
   url: http://saclique.ca/demoimage/?date=2019-12-06
   excerpt: |-
     An evolutionary algorithm applied to drawing, that's what it looks like! For several years now, every day, the image of the day from Wikipedia has passed through this program and is put online!
-  
+
     The result is sold as a piece of art on the Ethereum blockchain through OpenSea.
-  
+
     Uses Processing (Java) and PHP for the site.
 essair:
 - image_path: assets/images/sam_et_raph.PNG
@@ -34,10 +35,8 @@ essair:
   btn_label: Je want to watch!
   btn_class: btn--primary
   url: https://www.youtube.com/watch?v=wnFMNro_st4
-  excerpt: |-
-    A french-speaking podcast about technology and computers. All subjects allowed!
-    
-    Every wednesday 7PM eastern time
+  excerpt: A french-speaking podcast about technology and computers. All subjects
+    allowed!
 frameskip:
 - image_path: "/assets/images/frameskip.gif"
   alt: frameskip
