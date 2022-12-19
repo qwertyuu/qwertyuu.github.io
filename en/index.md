@@ -11,8 +11,7 @@ header:
     url: "/en/#contact"
   - label: Version Française
     url: "/fr"
-excerpt: I am a programmer, AI and Crypto enthusiast and eternally curious from Saguenay,
-  Quebec!
+excerpt: I am a programmer, AI enthusiast and eternally curious from Saguenay, Quebec!
 separator:
 - excerpt: ''
 opensea:
@@ -99,8 +98,6 @@ discovreddit:
 
 {% include feature_row id="separator" type="center" %}
 
-{% include feature_row id="opensea" type="left" %}
-
 {% include feature_row id="essair" type="right" %}
 
 {% include feature_row id="katahdin" type="left" %}
@@ -110,6 +107,8 @@ discovreddit:
 {% include feature_row id="pcb" type="left" %}
 
 {% include feature_row id="discovreddit" type="right" %}
+
+{% include feature_row id="opensea" type="left" %}
 
 # Contact
 
