@@ -102,9 +102,9 @@ discovreddit:
 
 {% include feature_row id="pcb" type="left" %}
 
-{% include feature_row id="opensea" type="left" %}
+{% include feature_row id="opensea" type="right" %}
 
-{% include feature_row id="discovreddit" type="right" %}
+{% include feature_row id="discovreddit" type="left" %}
 
 # Contact
 
