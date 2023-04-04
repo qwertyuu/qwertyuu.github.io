@@ -20,7 +20,7 @@ opensea:
   title: NFT Crypto on OpenSea
   btn_label: I want to see!
   btn_class: btn--primary
-  url: http://saclique.ca/demoimage/?date=2019-12-06
+  url: https://opensea.io/collection/evo-paint-beta
   excerpt: |-
     An evolutionary algorithm applied to drawing, that's what it looks like! For several years now, every day, the image of the day from Wikipedia has passed through this program and is put online!
 
@@ -106,9 +106,9 @@ discovreddit:
 
 {% include feature_row id="pcb" type="left" %}
 
-{% include feature_row id="discovreddit" type="right" %}
+{% include feature_row id="opensea" type="right" %}
 
-{% include feature_row id="opensea" type="left" %}
+{% include feature_row id="discovreddit" type="left" %}
 
 # Contact
 
