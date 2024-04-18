@@ -88,23 +88,35 @@ discovreddit:
   url: https://raphaelcote.com/discovreddit/
   btn_label: Je veux essayer!
   btn_class: btn--primary
+rgu:
+- image_path: https://ur.whnet.ca/images/full_board.jpg
+  alt: Plateau du jeu royal d'Ur
+  title: Jeu Royal d'Ur en-ligne
+  excerpt: Site web permettant de jouer en ligne au Jeu Royal d'Ur, jeu de société qui a 4500 ans!
+    le site contient une fonctionnalité pour jouer contre des amis, de la famille, vos ennemis ou si vous êtes seuls, contre des robots!
+    Certains robots sont si bons qu'on dirait qu'ils trichent, comme LUT par exemple!
+  url: https://ur.whnet.ca/
+  btn_label: Je veux jouer!
+  btn_class: btn--primary
 
 ---
 # Mes projets
 
 {% include feature_row id="separator" type="center" %}
 
-{% include feature_row id="essair" type="right" %}
+{% include feature_row id="rgu" type="right" %}
 
-{% include feature_row id="katahdin" type="left" %}
+{% include feature_row id="essair" type="left" %}
 
-{% include feature_row id="frameskip" type="right" %}
+{% include feature_row id="katahdin" type="right" %}
 
-{% include feature_row id="pcb" type="left" %}
+{% include feature_row id="frameskip" type="left" %}
 
-{% include feature_row id="opensea" type="right" %}
+{% include feature_row id="pcb" type="right" %}
 
-{% include feature_row id="discovreddit" type="left" %}
+{% include feature_row id="opensea" type="left" %}
+
+{% include feature_row id="discovreddit" type="right" %}
 
 # Contact
 
