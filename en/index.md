@@ -92,23 +92,34 @@ discovreddit:
   url: https://raphaelcote.com/discovreddit/
   btn_label: I want to try!
   btn_class: btn--primary
+rgu:
+- image_path: https://ur.whnet.ca/images/full_board.jpg
+  alt: Royal Game of Ur board
+  title: Online Royal Game of Ur
+  excerpt: A website that allows you to play the Royal Game of Ur online, a board game that is 4500 years old! The site features the ability to play against friends, family, enemies, or if you're alone, against robots! Some robots are so good that it seems like they're cheating, such as LUT!
+  url: https://ur.whnet.ca/
+  btn_label: I want to play!
+  btn_class: btn--primary
+
 
 ---
 # My projects
 
 {% include feature_row id="separator" type="center" %}
 
-{% include feature_row id="essair" type="right" %}
+{% include feature_row id="rgu" type="right" %}
 
-{% include feature_row id="katahdin" type="left" %}
+{% include feature_row id="essair" type="left" %}
 
-{% include feature_row id="frameskip" type="right" %}
+{% include feature_row id="katahdin" type="right" %}
 
-{% include feature_row id="pcb" type="left" %}
+{% include feature_row id="frameskip" type="left" %}
 
-{% include feature_row id="opensea" type="right" %}
+{% include feature_row id="pcb" type="right" %}
 
-{% include feature_row id="discovreddit" type="left" %}
+{% include feature_row id="opensea" type="left" %}
+
+{% include feature_row id="discovreddit" type="right" %}
 
 # Contact
 
