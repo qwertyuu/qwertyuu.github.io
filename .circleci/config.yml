@@ -12,7 +12,7 @@ jobs:
           restore_submodules: true # restaure les sous-modules git
       - add_ssh_keys:
           fingerprints:
-            - "8e:01:2f:04:7f:11:b3:15:bb:0a:27:3e:3d:9f:85:45"
+            - "SHA256:rJeMLbPEKKg9wEe+8+JKcrn6XQHcppp9XvWe00stydA"
       - restore_cache:
           keys:
             - rubygems-v1-{{ checksum "Gemfile.lock" }}
