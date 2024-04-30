@@ -93,7 +93,8 @@ rgu:
   alt: Plateau du jeu royal d'Ur
   title: Jeu Royal d'Ur en-ligne
   excerpt: Site web permettant de jouer en ligne au Jeu Royal d'Ur, jeu de société qui a 4500 ans!
-    le site contient une fonctionnalité pour jouer contre des amis, de la famille, vos ennemis ou si vous êtes seuls, contre des robots!
+    Le site contient une fonctionnalité pour jouer contre des amis, de la famille, vos ennemis ou si vous êtes seuls, contre des robots!
+  
     Certains robots sont si bons qu'on dirait qu'ils trichent, comme LUT par exemple!
   url: https://ur.whnet.ca/
   btn_label: Je veux jouer!
