@@ -14,18 +14,17 @@ header:
 excerpt: Je suis programmeur, enthousiaste IA et éternel curieux de Saguenay au Québec!
 separator:
 - excerpt: ''
-opensea:
+wopd:
 - image_path: assets/images/demo_imageinn_montage.jpg
-  alt: NFT sur OpenSea
-  title: NFT Crypto sur OpenSea
+  alt: ImageInn
+  title: ImageInn
   btn_label: Je veux voir!
   btn_class: btn--primary
-  url: https://opensea.io/collection/evo-paint-beta
+  url: https://raphaelcote.com/wpod-static-site/
   excerpt: "Un algorithme d'évolution appliqué à dessiner, c'est ça que ça donne!
-    Depuis plusieurs années à chaque jour, l'image du jour provenant de Wikipedia
-    est passée dans ce programme et est mise en ligne!\n\nLe résultat est vendu comme
-    oeuvre d'art sur la blockchain Ethereum via OpenSea.\n\nUtilise Processing (Java)
-    pour la génération. "
+    Pendant plusieurs années à chaque jour, l'image du jour provenant de Wikimedia
+    est passée dans ce programme et est mise en ligne!\n\nUtilise Processing (Java)
+    pour la génération et un algorithme NEAT maison pour créer l'effet."
 essair:
 - image_path: assets/images/sam_et_raph.PNG
   alt: sam et raph conversent
@@ -115,7 +114,7 @@ rgu:
 
 {% include feature_row id="pcb" type="right" %}
 
-{% include feature_row id="opensea" type="left" %}
+{% include feature_row id="wopd" type="left" %}
 
 {% include feature_row id="discovreddit" type="right" %}
 
