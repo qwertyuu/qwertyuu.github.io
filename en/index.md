@@ -14,24 +14,23 @@ header:
 excerpt: I am a programmer, AI enthusiast and eternally curious from Saguenay, Quebec!
 separator:
 - excerpt: ''
-opensea:
+wopd:
 - image_path: assets/images/demo_imageinn_montage.jpg
-  alt: NFT on OpenSea
-  title: NFT Crypto on OpenSea
+  alt: ImageInn
+  title: ImageInn
   btn_label: I want to see!
   btn_class: btn--primary
-  url: https://opensea.io/collection/evo-paint-beta
-  excerpt: |-
-    An evolutionary algorithm applied to drawing, that's what it looks like! For several years now, every day, the image of the day from Wikipedia has passed through this program and is put online!
+  url: https://raphaelcote.com/wpod-static-site/
+  excerpt: "This is what you get when you apply an evolutionary algorithm to drawing!
 
-    The result is sold as a piece of art on the Ethereum blockchain through OpenSea.
+  For several years, every day, the image of the day from Wikimedia was processed through this program and uploaded online!
 
-    Uses Processing (Java) and PHP for the site.
+  It uses Processing (Java) for generation and a custom NEAT algorithm to create the effect."
 essair:
 - image_path: assets/images/sam_et_raph.PNG
   alt: sam et raph conversent
   title: Sam et Raph conversent Podcast
-  btn_label: Je want to watch!
+  btn_label: I want to watch!
   btn_class: btn--primary
   url: https://www.youtube.com/watch?v=wnFMNro_st4
   excerpt: A french-speaking podcast about technology and computers. All subjects
