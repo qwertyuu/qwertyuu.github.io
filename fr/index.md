@@ -4,8 +4,8 @@ layout: splash
 lang: fr
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: "/assets/images/splash2-compressed.jpg"
+  overlay_filter: "0.33"
+  overlay_image: "/assets/images/top-of-halingpeak.jpg"
   actions:
   - label: Contactez-moi
     url: "/fr/#contact"
