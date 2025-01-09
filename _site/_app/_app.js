@@ -9,7 +9,7 @@ const toggleColorMode = function() {
   // light
   if (document.documentElement.classList.contains('dark')) {
     document.documentElement.classList.remove('dark');
-    localStorage.setItem('color-mode', 'light')
+    localStorage.setItem('color-mode', 'light');
     return;
   }
   // dark

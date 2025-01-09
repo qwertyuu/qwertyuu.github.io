@@ -1,10 +1,8 @@
 ---
 layout: 'layouts/default.njk'
 title: Projets
-lang: fr
 eleventyNavigation:
-  title: Shop
-  order: 1
+  order: 0
 eleventyComputed:
   eleventyNavigation:
     key: "{{ title }}"
@@ -26,7 +24,7 @@ eleventyComputed:
       <div class="line-clamp-2 text-sm">{{ item.data.short_description | safe }}</div>
       <div class="pt-3 flex items-end justify-between">
         <strong class="text-l">{{ item.data.tag }}</strong>
-        <iconify-icon icon="mdi:arrow-right" inline="false" class="iconify text-xl"></iconify-icon>
+        <iconify-icon icon="mdi:arrow-right" inline="false" class="iconify text-xl" noobserver></iconify-icon>
       </div>
     </figcaption>
   </figure>

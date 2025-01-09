@@ -1,21 +1,10 @@
----
-layout: 'layouts/default.njk'
-title: Projects
-lang: en
-eleventyNavigation:
-  title: Shop
-  order: 1
-eleventyComputed:
-  eleventyNavigation:
-    key: "{{ title }}"
----
-
 {%- from 'macro.list.njk' import list, listItem -%}
 
+{%- macro full_listing(param) %}
 {%- set projects -%}
-{%- for item in collections.project -%}
+{%- for item in param.list -%}
 {%- set current_project -%}
-<div class="group w-full h-full bg-white relative rounded-lg shadow-lg dark:(bg-pri-500/5)">
+<div class="group mt-10 w-full bg-white relative rounded-lg shadow-lg dark:(bg-pri-500/5)">
   <figure>
     <img src="{{ item.data.img }}" alt="{{ item.data.title }} photo" class="w-full h-48 object-(cover center) rounded-t-lg motion-safe:(transition-all)" />
     <figcaption class="p-6 space-y-1">
@@ -37,3 +26,4 @@ eleventyComputed:
 {%- endset -%}
 
 {{- list({slot: projects}) -}}
+{%- endmacro %}
