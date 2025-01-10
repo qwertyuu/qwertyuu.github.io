@@ -15,6 +15,7 @@ layout: 'layouts/default.njk'
     <div class="{{ site.prose }}">
       {{ content | safe }}
     </div>
+    {% if action_button_text %}
     <div class="pt-6 flex justify-left mb-6">
       {{ button({
         href: action_button_link,
@@ -23,6 +24,7 @@ layout: 'layouts/default.njk'
         slot: action_button_text
       }) }}
     </div>
+    {% endif %}
   </article>
 </div>
 

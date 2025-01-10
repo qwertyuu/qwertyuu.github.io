@@ -1,4 +1,5 @@
 {
   "layout": "layouts/project.njk",
-  "tags": [ "project", "highlight" ]
+  "tags": [ "project" ],
+  "lang": "fr"
 }

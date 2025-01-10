@@ -25,9 +25,7 @@ Je suis constamment à l'affût des nouvelles frontières technologiques à expl
 
 Avec plus de 10 ans d'expérience en développement, j'ai concrétisé ma passion à travers des projets novateurs. Je dirige la principale communauté de recherche sur le jeu royal d'UR, où j'ai rendu accessible pour la première fois une IA jouable basée sur des recherches académiques. 
 
-**Engagé dans ma communauté**, j'ai fondé BorIA, la première communauté d'IA et d'innovation technologique au Saguenay-Lac-Saint-Jean, avec la mission de développer et partager les connaissances en intelligence artificielle et autres technologies émergentes dans la région. 
-
-> TODO: Ajouter un lien vers le projet boria
+**Engagé dans ma communauté**, j'ai fondé BorIA, la première communauté d'IA et d'innovation technologique au Saguenay-Lac-Saint-Jean, avec la mission de développer et partager les connaissances en intelligence artificielle et autres technologies émergentes dans la région. [Plus de détails sur BorIA ici]({{ "/projects/boria" | locale_url }})!
 
 Mon expertise technique s'accompagne d'une approche humaine et d'une touche d'humour.
 
