@@ -1,14 +1,21 @@
 ---
 title: Royal Game of Ur Online
 img: https://ur.whnet.ca/images/full_board.jpg
-date: 0001-01-01
-short_description: A website of The Royal Game of Ur online, a 4500 year old board game!
-tag: Online web game
+short_description: An online website for the Royal Game of Ur, a 4500-year-old board game!
+tag: Online Web Game
 action_button_text: I want to play!
 action_button_link: https://ur.whnet.ca/
-lang: en
+tags: ["highlight"]
 ---
 
-A website that allows you to play the Royal Game of Ur online, a board game that is 4500 years old! The site features the ability to play against friends, family, enemies, or if you’re alone, against robots!
+{%- from 'macro.link.njk' import link -%}
 
-Some robots are so good that it seems like they’re cheating, such as LUT!
+This project, born in summer 2017 and completely redesigned in winter 2021, is a web adaptation of the fascinating {{link("Royal Game of Ur", "https://en.wikipedia.org/wiki/Royal_Game_of_Ur")}}, one of the oldest known board games in the world. Inspired by a {{link("discovery on YouTube", "https://www.youtube.com/watch?v=WZskjLq040I")}}, this project has become a true passion that has allowed me to make this ancient game accessible to a contemporary audience.
+
+This online gaming platform allows you to:
+- Play against friends online
+- Practice against artificial intelligence
+
+Developed entirely using modern web technologies (PHP, MariaDB, jQuery, and CSS), this project represents a perfect balance between history and technology.
+
+The {{link("source code is available", "https://github.com/qwertyuu/the_royal_game_of_ur")}} for development enthusiasts who wish to explore or contribute to the project.

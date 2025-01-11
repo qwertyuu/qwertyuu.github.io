@@ -1,10 +1,8 @@
 ---
 layout: 'layouts/default.njk'
 title: Projects
-lang: en
 eleventyNavigation:
-  title: Shop
-  order: 1
+  order: 0
 eleventyComputed:
   eleventyNavigation:
     key: "{{ title }}"
@@ -13,7 +11,7 @@ eleventyComputed:
 {%- from 'macro.list.njk' import list, listItem -%}
 
 {%- set projects -%}
-{%- for item in collections.project -%}
+{%- for item in collections.project | current_locale_content -%}
 {%- set current_project -%}
 <div class="group w-full h-full bg-white relative rounded-lg shadow-lg dark:(bg-pri-500/5)">
   <figure>

@@ -1,142 +1,48 @@
 ---
 layout: 'layouts/default.njk'
-title: 11ty + Twind
+title: Nice to meet you!
 ---
 
 {%- from 'macro.button.njk' import button -%}
 {%- from 'macro.dialog.njk' import dialog -%}
+{%- from 'macro.heading.njk' import heading -%}
+{%- from 'macro.listing.njk' import full_listing -%}
 
-<p class="mb-12 text-center">{{ button({
-  href: 'https://github.com/craigerskine/11ty-twind/',
-  outline: true,
-  slot: 'Source',
-  icon: 'mdi:github'
-}) }}</p>
 
 <article class="{{ site.prose }}">
+  <div class="mx-auto max-w-xl lg:gap-16 lg:grid lg:max-w-none lg:grid-cols-2">
+    <aside class="lg:order-last">
+      <figure class="mx-auto max-w-4xl">
+        <img src="https://media.licdn.com/dms/image/v2/D4E03AQErpo1scZTBBg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731865418672?e=1741824000&v=beta&t=O-J1V-ARzMC7xXHXGuUDBqD6WO8Q4S1PGNZonSMm7v0" alt="Royal Game of Ur Online photo" class="h-100 w-full object-center object-cover rounded-2xl">
+      </figure>
+    </aside>
+    <article>
 
-***
 
-## Intro heading
+### Raphaël Côté, Tech Enthusiast & AI Leader
 
-Twind is Tailwind but without the build step. It also comes with a ton of cool options for stuff like auto-dark, grouping, arbitrary one-offs, and much much more. And since it's live, you can do stuff like partial class assembly `:class="'bg-'+ color +'-500/'+ opacity"` { .lead }
+I'm constantly on the lookout for new technological frontiers to explore. My journey in the tech world reflects this insatiable curiosity - from operating systems to genetic algorithms, AI, and data science.
 
-**Included in this kit are examples of [parameterized components/macros](https://github.com/craigerskine/11ty-twind/blob/main/_site/_includes/macro.button.njk):**
+With over 10 years of development experience, I've brought my passion to life through innovative projects. I lead the main research community on the Royal Game of UR, where I made AI gameplay based on academic research accessible for the first time.
 
-```twig{% raw %}
-{# _includes/macro.button.njk #}
-{%- macro button(param) -%}
-  <button{{ param.props | safe }} class="py-1.5 px-3 bg-{{ param.color }}-500 text-black/90 inline-flex ...youGetTheIdea">
-    {{ param.slot | safe }}
-    {%- if param.icon %}<iconify-icon icon="{{ param.icon }}" noobserver></iconify-icon>{%- endif %}
-  </button>
-{%- endmacro -%}
+**Engaged in my community**, I founded BorIA, the first AI and technological innovation community in Saguenay-Lac-Saint-Jean, with the mission to develop and share knowledge in artificial intelligence and other emerging technologies in the region. [More details about BorIA here]({{ "/projects/boria" | locale_url }})!
 
-{# _site/some-page.njk #}
-{%- from 'macro.button.njk' import button -%}
-{{ button({
-  color: 'orange',
-  icon: 'mdi:check',
-  props: ' aria-label="check"'
-}) }}
-{% endraw %}```
+My technical expertise comes with a human approach and a touch of humor.
 
-## Button component with a bunch of different prop option examples
+Always seeking the next challenge, I aim to put my skills to use in projects that have a concrete positive impact.
 
-{{ button({
-  color: 'pri',
-  slot: 'Contained'
-}) }} {{ button({
-  outline: true,
-  color: 'sec',
-  slot: 'Outline'
-}) }} {{ button({
-  ghost: true,
-  color: 'neutral',
-  slot: 'Ghost'
-}) }} {{ button({
-  color: 'green',
-  outline: true,
-  sharp: true,
-  slot: 'Sharp'
-}) }} {{ button({
-  color: 'fuchsia',
-  icon: 'mdi:login',
-  reverse: true,
-  slot: 'w/Icon'
-}) }} {{ button({
-  color: 'orange',
-  icon: 'mdi:tailwind',
-  circle: true,
-  props: ' x-tooltip="\'Circle\'" aria-label="Tailwind CSS"'
-}) }} {{ button({
-  color: 'emerald',
-  icon: 'mdi:tailwind',
-  props: ' x-tooltip="\'Square\'" aria-label="Tailwind CSS"'
-}) }} {{ button({
-  color: 'neutral',
-  slot: 'Truncate super long button labels like this'
-}) }} {{ button({
-  color: 'zinc',
-  outline: true,
-  slot: 'XS',
-  size: 'xs'
-}) }} {{ button({
-  color: 'zinc',
-  outline: true,
-  slot: 'SM',
-  size: 'sm'
-}) }} {{ button({
-  color: 'zinc',
-  outline: true,
-  slot: 'Base'
-}) }} {{ button({
-  color: 'zinc',
-  outline: true,
-  slot: 'LG',
-  size: 'lg'
-}) }} {{ button({
-  color: 'zinc',
-  outline: true,
-  slot: 'XL',
-  size: 'xl'
-}) }} {{ button({
-  color: 'zinc',
-  outline: true,
-  slot: '2XL',
-  size: '2xl'
-}) }} { .p-8 .flex .flex-wrap .items-center .justify-center .gap-3 }
+[Let's talk!]({{ "/contact" | locale_url }})
 
-## Alpine.js Modal/Dialog
-
-<div class="text-center">
-{{ button({
-  color: 'yellow',
-  outline: true,
-  slot: 'Open Dialog',
-  props: ' @click="$refs.myDialog.showModal()"'
-}) }}
-{{ dialog({
-  ref: 'myDialog',
-  title: 'Dialog title',
-  slot: 'This uses the HTML `dialog` tag so it automatically comes with full accessibility. Press `ESC` to close, click the backdrop to close, default browser focus trap, no scrolling on background when open, etc.'
-}) }}
-</div>
-
-***
-
-### Some Typography
-
-> Commodo irure laboris incididunt anim veniam non ea et nisi ea. Nostrud pariatur ipsum aliqua sit consequat occaecat velit enim enim ex consectetur anim sunt id.
-
-Non pariatur excepteur ut laboris ut. Consectetur reprehenderit id aute et eu et est deserunt ipsum laborum cillum cupidatat. Ad aliqua et pariatur pariatur consectetur magna non eiusmod commodo veniam fugiat. Mollit commodo commodo adipisicing culpa officia veniam proident ut sint reprehenderit culpa culpa est mollit. Nisi incididunt ipsum qui in amet enim sint dolore elit eiusmod est.
-
-* List item
-* List item
-  * Nested item
-  * Nested item
-* List item
-
-Aute excepteur officia sunt veniam tempor consequat do do nisi ullamco laboris. Nisi irure laboris sint veniam. Deserunt aute irure in sit.
 
 </article>
+</div>
+
+</article>
+{{ heading({slot: "Project Showcase", divider: true}) }}
+
+
+<div class="pt-3 flex items-end justify-between">
+  <div class="text-l">Here are the projects I'm particularly proud of.</div>
+  <a href="{{ "/projects" | locale_url }}" class="text-(lg sec-600) leading-tight font-semibold inline-block [&:after]:(w-full h-0.5 bg-current block opacity-50 scale-0 motion-safe:(transition) content-['']) [&:hover:after,&:focus:after]:(scale-100)"><strong class="text-l">All my projects <iconify-icon icon="mdi:arrow-right" inline="false" class="iconify text-xl" noobserver></iconify-icon></strong></a>
+</div>
+{{ full_listing({list: collections.highlight | current_locale_content}) }}
