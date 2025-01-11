@@ -2,7 +2,7 @@
 title: GameJams et +
 img: https://totemastudio.com/images/games/katahdin/totemastudio-katahdin-header.png
 short_description: Les jeux vidéos que j'ai développé en équipe en peu de temps
-tag: Jeux vidéos en 48h
+tag: Création de jeux
 tags: ["highlight"]
 ---
 

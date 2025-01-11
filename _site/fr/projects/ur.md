@@ -8,7 +8,9 @@ action_button_link: https://ur.whnet.ca/
 tags: ["highlight"]
 ---
 
-Ce projet, né à l'été 2017 et entièrement remanié à l'hiver 2021, est une adaptation web du fascinant <a href="https://en.wikipedia.org/wiki/Royal_Game_of_Ur" target="_blank">Jeu Royal d'Ur</a>, l'un des plus anciens jeux de plateau connus au monde. Inspiré par une <a href="https://www.youtube.com/watch?v=WZskjLq040I" target="_blank">découverte sur YouTube</a>, ce projet est devenu une véritable passion qui m'a permis de rendre accessible ce jeu millénaire à un public contemporain.
+{%- from 'macro.link.njk' import link -%}
+
+Ce projet, né à l'été 2017 et entièrement remanié à l'hiver 2021, est une adaptation web du fascinant {{link("Jeu Royal d'Ur", "https://en.wikipedia.org/wiki/Royal_Game_of_Ur")}}, l'un des plus anciens jeux de plateau connus au monde. Inspiré par une {{link("découverte sur YouTube", "https://www.youtube.com/watch?v=WZskjLq040I")}}, ce projet est devenu une véritable passion qui m'a permis de rendre accessible ce jeu millénaire à un public contemporain.
 
 Cette plateforme de jeu en ligne vous permet de :
 - Jouer contre des amis en ligne
@@ -16,4 +18,4 @@ Cette plateforme de jeu en ligne vous permet de :
 
 Développé intégralement en utilisant des technologies web modernes (PHP, MariaDB, jQuery et CSS), ce projet représente un parfait équilibre entre histoire et technologie.
 
-Le code source est disponible [ici](https://github.com/qwertyuu/the_royal_game_of_ur) pour les passionnés de développement souhaitant explorer ou contribuer au projet.
+Le {{link("code source est disponible", "https://github.com/qwertyuu/the_royal_game_of_ur")}} pour les passionnés de développement souhaitant explorer ou contribuer au projet.

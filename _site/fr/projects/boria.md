@@ -8,14 +8,16 @@ action_button_link: https://www.youtube.com/@Boreal-IA
 tags: ["highlight"]
 ---
 
-BorIA est un regroupement de passionnés de l'intelligence artificielle créé et organisé par <a href="{{ "/contact" | locale_url }}">Raphaël Côté</a>, <a href="https://www.linkedin.com/in/michelle-fournier-02364133/" target="_blank">Michelle Fournier</a> et <a href="https://www.linkedin.com/in/dominic-tremblay-gagnon/" target="_blank">Dominic Tremblay-Gagnon</a>.
+{%- from 'macro.link.njk' import link -%}
+
+BorIA est un regroupement de passionnés de l'intelligence artificielle créé et organisé par {{link("Raphaël Côté", "/contact" | locale_url)}}, {{link("Michelle Fournier", "https://www.linkedin.com/in/michelle-fournier-02364133/")}} et {{link("Dominic Tremblay-Gagnon", "https://www.linkedin.com/in/dominic-tremblay-gagnon/")}}.
 
 L'objectif est de rassembler les étudiants, chercheurs, travailleurs et passionnés de la région du Saguenay Lac-Saint-Jean afin qu'ils échangent et apprennent tous ensemble.
 
 Le format est le suivant: On se rassemble dans une salle, et on fait passer plusieurs présentation (ou "talks") d'environ 15 minutes qui sont enregistrés, en encourageant les questions du public après chacune. Après coup, les présentations sont partagées sur la chaîne YouTube. 
 
 Il y a aussi:
-- <a href="https://discord.com/invite/MR97SWb7aq" target="_blank">Une communauté Discord</a>
-- <a href="https://www.facebook.com/boria.saglac" target="_blank">Une page Facebook</a>
-- <a href="https://www.linkedin.com/company/bor%C3%A9al-ia/" target="_blank">Une page LinkedIn</a>
-- <a href="mailto:borealia02@gmail.com" target="_blank">Une adresse courriel</a>
+- {{link("Une communauté Discord", "https://discord.com/invite/MR97SWb7aq")}}
+- {{link("Une page Facebook", "https://www.facebook.com/boria.saglac")}}
+- {{link("Une page LinkedIn", "https://www.linkedin.com/company/bor%C3%A9al-ia/")}}
+- {{link("Une adresse courriel", "mailto:borealia02@gmail.com")}}

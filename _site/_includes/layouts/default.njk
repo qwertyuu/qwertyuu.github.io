@@ -1,6 +1,15 @@
 {%- from 'macro.heading.njk' import heading -%}
 {%- set page_title -%}{{ title +' :: '+ meta.title }}{%- endset -%}
 
+{% if page.lang == "fr" %}
+{% set from_lang = "/fr" %}
+{% set to_lang = "/en" %}
+{% endif %}
+{% if page.lang == "en" %}
+{% set from_lang = "/en" %}
+{% set to_lang = "/fr" %}
+{% endif %}
+
 <!doctype html>
 <html lang="{{ page.lang }}" class="bg-transparent antialiased [&:has(:is(dialog[open]))]:(overflow-hidden [scrollbar-gutter:stable])" x-data>
 
@@ -42,7 +51,7 @@
 
       <header class="w-full flex-none">
         <nav class="mx-auto py-8 px-4 max-w-7xl flex-(& col) items-center gap-4 md:(flex-row justify-between)">
-          <a href="{{ '/' | url }}" class="group text-pri-600 flex-(& none) items-center gap-2 transform motion-safe:(transition) hover:(text-pri-500)">
+          <a href="{{ '/' | locale_url }}" class="group text-pri-600 flex-(& none) items-center gap-2 transform motion-safe:(transition) hover:(text-pri-500)">
             {%- include '_logo.njk' %}
             <strong class="text-xl font-semibold hidden md:(text-2xl tracking-tight block)">{{ meta.title }}</strong>
           </a>
@@ -55,6 +64,12 @@
               </a>
             </li>
             {%- endfor %}
+            <li>
+              <a href="{{ page.url | replace(from_lang, to_lang) | url }}" class="flex text-sec-700 font-semibold relative motion-safe:(transition) hover:(text-pri-800) dark:(hover:(text-pri-400))">
+                {% if page.lang == "fr" %}English{% endif %}
+                {% if page.lang == "en" %}Français{% endif %}
+              </a>
+            </li>
             <li>
               <button class="color-mode text-gray-500 motion-safe:(transition) hover:(text-gray-700)" aria-label="Toggle color mode">
                 <span class="block dark:(hidden)"><iconify-icon icon="mdi:weather-sunny" inline="false" class="iconify text-xl" noobserver></iconify-icon> <span class="sr-only">Switch to dark mode</span></span>
