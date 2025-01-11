@@ -19,6 +19,7 @@ export default function (eleventyConfig) {
     '_site/_assets/files': '_assets/files',
     '_site/_assets/img': '_assets/img',
     '_site/_assets/_root': './',
+    'CNAME': 'CNAME',
   });
 
   eleventyConfig.addWatchTarget('./_site/_app/_app.js');
