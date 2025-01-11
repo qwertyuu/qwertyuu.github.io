@@ -13,7 +13,7 @@ title: Nice to meet you!
   <div class="mx-auto max-w-xl lg:gap-16 lg:grid lg:max-w-none lg:grid-cols-2">
     <aside class="lg:order-last">
       <figure class="mx-auto max-w-4xl">
-        <img src="https://media.licdn.com/dms/image/v2/D4E03AQErpo1scZTBBg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731865418672?e=1741824000&v=beta&t=O-J1V-ARzMC7xXHXGuUDBqD6WO8Q4S1PGNZonSMm7v0" alt="Royal Game of Ur Online photo" class="h-100 w-full object-center object-cover rounded-2xl">
+        <img src="{{ '/' | url }}_assets/img/linkedin-profile.jpg" alt="Profile picture of Raphaël Côté" class="h-100 w-full object-center object-cover rounded-2xl">
       </figure>
     </aside>
     <article>

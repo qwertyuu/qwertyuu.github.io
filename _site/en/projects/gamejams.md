@@ -1,9 +1,10 @@
 ---
 title: GameJams & More
-img: https://totemastudio.com/images/games/katahdin/totemastudio-katahdin-header.png
 short_description: Video games I developed in team in a short time
 tag: Game Creation
 tags: ["highlight"]
+eleventyComputed:
+    img: "{{ '/' | url }}_assets/img/totemastudio-katahdin-header.png"
 ---
 
 {%- from 'macro.link.njk' import link -%}

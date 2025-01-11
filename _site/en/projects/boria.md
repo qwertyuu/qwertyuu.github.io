@@ -1,11 +1,12 @@
 ---
 title: BorIA
-img: https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/471371145_122190690482137326_3896674926658743307_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=pq21eQsXl2oQ7kNvgEaLQSn&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=AInS_TEoPazKgHqK0Em2WiT&oh=00_AYDCVyN-_oov_e5FGDip25pbQTAzNT1UAXaoGBH167DIpA&oe=67865FF3
 short_description: A group of research and artificial intelligence enthusiasts in the region
 tag: Local Community
 action_button_text: I want to learn more!
 action_button_link: https://www.youtube.com/@Boreal-IA
 tags: ["highlight"]
+eleventyComputed:
+    img: "{{ '/' | url }}_assets/img/boria.jpg"
 ---
 
 {%- from 'macro.link.njk' import link -%}
