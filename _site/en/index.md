@@ -11,7 +11,7 @@ title: Nice to meet you!
 
 <article class="{{ site.prose }}">
   <div class="mx-auto max-w-xl lg:gap-16 lg:grid lg:max-w-none lg:grid-cols-2">
-    <aside class="lg:order-last">
+    <aside class="lg:order-last mb-5">
       <figure class="mx-auto max-w-4xl">
         <img src="{{ '/' | url }}_assets/img/linkedin-profile.jpg" alt="Profile picture of Raphaël Côté" class="h-100 w-full object-center object-cover rounded-2xl">
       </figure>
