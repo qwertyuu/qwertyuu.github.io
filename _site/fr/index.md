@@ -23,7 +23,7 @@ title: Enchanté!
 ### Raphaël Côté, Passionné Techno & Leader en IA
 
 
-{{ link("Mon CV", "https://docs.google.com/document/d/e/2PACX-1vQxpPqn2mMkbFkYExj4nroh4VHqq7Z7E5lUf3yRIoCyfZckPIe5w9_pLtqDQak-1ym3EnVc4bn83z80/pub") }}
+{{ link("📄 Mon CV", "https://docs.google.com/document/d/e/2PACX-1vQxpPqn2mMkbFkYExj4nroh4VHqq7Z7E5lUf3yRIoCyfZckPIe5w9_pLtqDQak-1ym3EnVc4bn83z80/pub") }}
 
 Je suis constamment à l'affût des nouvelles frontières technologiques à explorer. Mon voyage dans le monde de la tech reflète cette curiosité insatiable - des systèmes d'exploitation aux algorithmes génétiques, en passant par l'IA et la science des données.
 
