@@ -12,7 +12,7 @@ eleventyComputed:
 
 - [📧 Email](mailto:cotlarrc@gmail.com)
 - [💼 LinkedIn](https://www.linkedin.com/in/raphael-cote-sag)
-- [📄 Resume](https://docs.google.com/document/d/e/2PACX-1vQxpPqn2mMkbFkYExj4nroh4VHqq7Z7E5lUf3yRIoCyfZckPIe5w9_pLtqDQak-1ym3EnVc4bn83z80/pub)
+- [📄 Resume](https://docs.google.com/document/d/e/2PACX-1vQYuoGo8YtVy4i_jBryTquavljMrXXd__Km8GelNjjEmwj5d7L3vVkY34-FQwBza6iaxNuFEa9NB5jG/pub)
 - [💻 GitHub](https://github.com/qwertyuu?tab=repositories) to see all the open source code I work on
 - [📅 Calendly](https://calendly.com/raphaelcote/60min) to schedule a meeting with me
 

@@ -7,6 +7,7 @@ title: Nice to meet you!
 {%- from 'macro.dialog.njk' import dialog -%}
 {%- from 'macro.heading.njk' import heading -%}
 {%- from 'macro.listing.njk' import full_listing -%}
+{%- from 'macro.link.njk' import link -%}
 
 
 <article class="{{ site.prose }}">
@@ -20,6 +21,9 @@ title: Nice to meet you!
 
 
 ### Raphaël Côté, Tech Enthusiast & AI Leader
+
+
+{{ link("My Resume", "https://docs.google.com/document/d/e/2PACX-1vQYuoGo8YtVy4i_jBryTquavljMrXXd__Km8GelNjjEmwj5d7L3vVkY34-FQwBza6iaxNuFEa9NB5jG/pub") }}
 
 I'm constantly on the lookout for new technological frontiers to explore. My journey in the tech world reflects this insatiable curiosity - from operating systems to genetic algorithms, AI, and data science.
 
