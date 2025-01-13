@@ -18,6 +18,7 @@ L'objectif est de rassembler les étudiants, chercheurs, travailleurs et passion
 Le format est le suivant: On se rassemble dans une salle, et on fait passer plusieurs présentation (ou "talks") d'environ 15 minutes qui sont enregistrés, en encourageant les questions du public après chacune. Après coup, les présentations sont partagées sur la chaîne YouTube. 
 
 Il y a aussi:
+- {{link("Une chaîne YouTube", "https://www.youtube.com/@Boreal-IA")}}
 - {{link("Une communauté Discord", "https://discord.com/invite/MR97SWb7aq")}}
 - {{link("Une page Facebook", "https://www.facebook.com/boria.saglac")}}
 - {{link("Une page LinkedIn", "https://www.linkedin.com/company/bor%C3%A9al-ia/")}}
