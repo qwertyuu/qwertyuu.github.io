@@ -1,7 +1,7 @@
 ---
 title: BorIA
 short_description: Un regroupement de passionnés de recherche et d'intelligence artificielle en région
-tag: Communauté Locale
+tag: Communauté locale
 action_button_text: Je veux en apprendre plus!
 action_button_link: https://www.youtube.com/@Boreal-IA
 tags: ["highlight"]

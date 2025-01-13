@@ -1,10 +1,11 @@
 ---
 title: Finance Personnelle
-img: https://static.raphaelcote.com/FinancePersoCan/assets/organigramme-coupe-2.png
 short_description: Un guide tout-en-un pour guider vos finances personnelles au Québec
 tag: Page interactive
 action_button_text: Je veux voir!
 action_button_link: https://static.raphaelcote.com/FinancePersoCan/
+eleventyComputed:
+    img: "{{ '/' | url }}_assets/img/organigramme-sombre-crop.png"
 ---
 {%- from 'macro.link.njk' import link -%}
 

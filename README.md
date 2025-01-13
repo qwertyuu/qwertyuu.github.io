@@ -13,3 +13,9 @@ import: `{%- from 'macro.link.njk' import link -%}`
 
 Regex: `\[([^\]]+)\]\(([^\)]+)\)`
 Replace: `{{ link("$1", "$2") }}`
+
+# Images/photos projets
+
+Largeur suggérée : 800px
+Hauteur suggérée : 533px
+Aspect ratio : 3:2 (1.5:1)

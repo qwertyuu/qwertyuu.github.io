@@ -33,5 +33,8 @@
     "js-yaml": "^4.1.0",
     "markdown-it-attrs": "^4.1.6",
     "tippy.js": "^6.3.7"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^6.0.0"
   }
 }
