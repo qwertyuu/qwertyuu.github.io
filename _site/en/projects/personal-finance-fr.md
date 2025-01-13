@@ -1,7 +1,7 @@
 ---
 title: Personal Finance
 short_description: An all-in-one guide to direct your personal finances in Quebec
-tag: Interactive Page
+tag: Interactive page
 action_button_text: I want to see!
 action_button_link: https://static.raphaelcote.com/FinancePersoCan/
 eleventyComputed:

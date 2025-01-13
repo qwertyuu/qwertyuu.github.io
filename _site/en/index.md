@@ -1,6 +1,6 @@
 ---
 layout: 'layouts/default.njk'
-title: Nice to meet you!
+title: Hi there!
 ---
 
 {%- from 'macro.button.njk' import button -%}

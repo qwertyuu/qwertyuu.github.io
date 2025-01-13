@@ -1,6 +1,6 @@
 ---
 title: GameJams & More
-short_description: Video games I developed in team in a short time
+short_description: Video games I developed as a team in a short time
 tag: Game Creation
 tags: ["highlight"]
 eleventyComputed:

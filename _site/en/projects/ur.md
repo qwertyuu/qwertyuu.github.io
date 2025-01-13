@@ -19,4 +19,4 @@ This online gaming platform allows you to:
 
 Developed entirely using modern web technologies (PHP, MariaDB, jQuery, and CSS), this project represents a perfect balance between history and technology.
 
-The {{link("source code is available", "https://github.com/qwertyuu/the_royal_game_of_ur")}} for development enthusiasts who wish to explore or contribute to the project.
+The {{link("source code is available", "https://github.com/qwertyuu/the_royal_game_of_ur")}} for development enthusiasts who wish to explore or contribute to the project. I also contributed to the world [of scientific research]({{ '/projects/ur-research' | locale_url }}) with this project.
