@@ -35,7 +35,7 @@ My technical expertise comes with a human approach and a touch of humor.
 
 Always seeking the next challenge, I aim to put my skills to use in projects that have a concrete positive impact.
 
-[Let's talk!]({{ "/contact" | locale_url }})
+[🤝 Let's talk!]({{ "/contact" | locale_url }})
 
 
 </article>

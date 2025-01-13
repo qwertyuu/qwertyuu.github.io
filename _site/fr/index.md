@@ -35,7 +35,7 @@ Mon expertise technique s'accompagne d'une approche humaine et d'une touche d'hu
 
 Toujours en quête du prochain défi, je cherche à mettre mes compétences au service de projets qui ont un impact positif concret.
 
-[Venez me parler!]({{ "/contact" | locale_url }})
+[🤝 Venez me parler!]({{ "/contact" | locale_url }})
 
 
 </article>

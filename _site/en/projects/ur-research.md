@@ -1,7 +1,7 @@
 ---
 title: Royal Game of Ur Research
 short_description: Scientific research work on the Royal Game of Ur
-tag: Data and AI
+tag: Data and A.I.
 action_button_text: I want to see!
 action_button_link: https://www.kaggle.com/datasets/qwertyuu/the-royal-game-of-ur-expectimax-depth-8
 eleventyComputed:

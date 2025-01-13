@@ -1,7 +1,7 @@
 ---
 title: Recherche sur le Jeu Royal d'Ur
 short_description: Travaux de recherche scientifique à propos du Jeu Royal d'Ur
-tag: IA et Données
+tag: I.A. et Données
 action_button_text: Je veux voir!
 action_button_link: https://www.kaggle.com/datasets/qwertyuu/the-royal-game-of-ur-expectimax-depth-8
 eleventyComputed:
