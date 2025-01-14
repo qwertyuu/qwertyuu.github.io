@@ -7,8 +7,6 @@ eleventyComputed:
     img: "{{ '/' | url }}_assets/img/totemastudio-katahdin-header.png"
 ---
 
-{%- from 'macro.link.njk' import link -%}
-
 Je regroupe ici tous les GameJam auquel j'ai participé. La majorité sont des gamejams de l'UQAC.
 
 ## 2018

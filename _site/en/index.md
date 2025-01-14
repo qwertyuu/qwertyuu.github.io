@@ -7,7 +7,6 @@ title: Hi there!
 {%- from 'macro.dialog.njk' import dialog -%}
 {%- from 'macro.heading.njk' import heading -%}
 {%- from 'macro.listing.njk' import full_listing -%}
-{%- from 'macro.link.njk' import link -%}
 
 
 <article class="{{ site.prose }}">

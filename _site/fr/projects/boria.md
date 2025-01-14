@@ -9,8 +9,6 @@ eleventyComputed:
     img: "{{ '/' | url }}_assets/img/boria.jpg"
 ---
 
-{%- from 'macro.link.njk' import link -%}
-
 BorIA est un regroupement de passionnés de l'intelligence artificielle créé et organisé par {{link("Raphaël Côté", "/contact" | locale_url)}}, {{link("Michelle Fournier", "https://www.linkedin.com/in/michelle-fournier-02364133/")}} et {{link("Dominic Tremblay-Gagnon", "https://www.linkedin.com/in/dominic-tremblay-gagnon/")}}.
 
 L'objectif est de rassembler les étudiants, chercheurs, travailleurs et passionnés de la région du Saguenay Lac-Saint-Jean afin qu'ils échangent et apprennent tous ensemble.

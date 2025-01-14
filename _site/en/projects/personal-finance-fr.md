@@ -7,7 +7,6 @@ action_button_link: https://static.raphaelcote.com/FinancePersoCan/
 eleventyComputed:
     img: "{{ '/' | url }}_assets/img/organigramme-sombre-crop.png"
 ---
-{%- from 'macro.link.njk' import link -%}
 
 This page presents a French translation I created and host of the "Personal Income Spending Flowchart - Canada".
 

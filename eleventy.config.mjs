@@ -12,6 +12,9 @@ export default function (eleventyConfig) {
   eleventyConfig.setServerOptions({
     domdiff: false,
   });
+  eleventyConfig.addPreprocessor("macro-inject", ".njk,.md", (data, content) => {
+    return `{%- from "macro.link.njk" import link -%}\n` + content;
+  });
 
   eleventyConfig.setDataFileBaseName('_data');
 
@@ -30,7 +33,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: "fr",
   });
-  
+
 
   //{% renderTemplate "md" %}
   //# Blah{.text-center}
@@ -45,26 +48,26 @@ export default function (eleventyConfig) {
   // shortcodes
   eleventyConfig.addShortcode('bust', () => `${new Date().getFullYear()}${new Date().getMonth()}${new Date().getDate()}${new Date().getHours()}`);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
-  eleventyConfig.addShortcode('renderblock', function(name) {
+  eleventyConfig.addShortcode('renderblock', function (name) {
     return (this.page.setblock || {})[name] || '';
   });
-  eleventyConfig.addPairedShortcode('setblock', function(content, name) {
+  eleventyConfig.addPairedShortcode('setblock', function (content, name) {
     if (!this.page.setblock) this.page.setblock = {};
     this.page.setblock[name] = content;
     return '';
   });
 
   // md {{ some.content | md | safe }}
-  eleventyConfig.addFilter('md', function(content) {
+  eleventyConfig.addFilter('md', function (content) {
     return markdownLibrary.render(content);
   });
 
-  eleventyConfig.addFilter('current_locale_content', function(content) {
+  eleventyConfig.addFilter('current_locale_content', function (content) {
     return content.filter((c) => c.page.lang === this.page.lang);
   });
 
   // cssmin
-  eleventyConfig.addFilter("cssmin", function(code) {
+  eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
   });
 

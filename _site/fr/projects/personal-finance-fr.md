@@ -7,7 +7,6 @@ action_button_link: https://static.raphaelcote.com/FinancePersoCan/
 eleventyComputed:
     img: "{{ '/' | url }}_assets/img/organigramme-sombre-crop.png"
 ---
-{%- from 'macro.link.njk' import link -%}
 
 Cette page présente une traduction française réalisée et hébergée moi-même de l'organigramme "Personal Income Spending Flowchart - Canada". 
 

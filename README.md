@@ -9,8 +9,6 @@ Lorsque je pousse sur `main`, un build github action est lancé et pousse sur la
 
 # Conversion markdown to link
 
-import: `{%- from 'macro.link.njk' import link -%}`
-
 Regex: `\[([^\]]+)\]\(([^\)]+)\)`
 Replace: `{{ link("$1", "$2") }}`
 

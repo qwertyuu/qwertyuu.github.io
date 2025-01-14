@@ -9,8 +9,6 @@ eleventyComputed:
     img: "{{ '/' | url }}_assets/img/full_board.jpg"
 ---
 
-{%- from 'macro.link.njk' import link -%}
-
 This project, born in summer 2017 and completely redesigned in winter 2021, is a web adaptation of the fascinating {{link("Royal Game of Ur", "https://en.wikipedia.org/wiki/Royal_Game_of_Ur")}}, one of the oldest known board games in the world. Inspired by a {{link("discovery on YouTube", "https://www.youtube.com/watch?v=WZskjLq040I")}}, this project has become a true passion that has allowed me to make this ancient game accessible to a contemporary audience.
 
 This online gaming platform allows you to:

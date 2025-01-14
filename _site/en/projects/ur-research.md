@@ -8,8 +8,6 @@ eleventyComputed:
     img: "{{ '/' | url }}_assets/img/royal-ur-research.PNG"
 ---
 
-{%- from 'macro.link.njk' import link -%}
-
 
 # Technological Innovations in the Royal Game of Ur
 
