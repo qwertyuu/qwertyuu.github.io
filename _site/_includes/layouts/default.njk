@@ -11,90 +11,220 @@
 {% endif %}
 
 <!doctype html>
-<html lang="{{ page.lang }}" class="bg-transparent antialiased [&:has(:is(dialog[open]))]:(overflow-hidden [scrollbar-gutter:stable])" x-data>
+<html lang="{{ page.lang }}"
+  class="bg-transparent antialiased [&:has(:is(dialog[open]))]:(overflow-hidden [scrollbar-gutter:stable])" x-data>
 
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>{{ page_title | safe }}</title>
-    <meta name="description" content="{{ meta.description }}" />
-    <meta name="author" content="{{ meta.author }} - {{ meta.author_url }}" />
-    <meta name="generator" content="{{ eleventy.generator }}" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="{{ '/' | url }}favicon.ico" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link onload="this.onload=null;this.rel='stylesheet'" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>{{ page_title | safe }}</title>
 
-    <meta property="og:title" content="{{ page_title }}" />
-    <meta property="og:description" content="{{ meta.description }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ page.url | url }}" />
-    <!-- <meta property="og:image" content="{{ '/' | url }}_assets/img/og.png" /> -->
-    <meta property="og:image" content="{% if img %}{{ site.baseurl }}{{ img | url }}{% else %}https://media.licdn.com/dms/image/v2/D4E03AQErpo1scZTBBg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731865418672?e=1741824000&v=beta&t=O-J1V-ARzMC7xXHXGuUDBqD6WO8Q4S1PGNZonSMm7v0{% endif %}" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css" />
 
-    {% set css %}
-      {% include 'css/prism.css' %}
-    {% endset %}
-    <style>{{ css | cssmin | safe }}</style>
-    {% renderblock 'css' %}
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
 
-    <script>
-      if (localStorage.getItem('color-mode') === 'dark' || (window.matchMedia('(prefers-color-scheme: dark)').matches && !localStorage.getItem('color-mode'))) {
-        document.documentElement.classList.add('dark');
+  <style>
+    /* Surcharge minimale des styles Swiper pour le thème sombre */
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: rgb(74 222 128) !important;
+      /* Vert similaire à vos liens */
+    }
+
+    .swiper-pagination-bullet {
+      background: #ffffff !important;
+      opacity: 0.5;
+    }
+
+    .swiper-pagination-bullet-active {
+      opacity: 1;
+      background: rgb(74 222 128) !important;
+    }
+  </style>
+
+  <meta name="description" content="{{ meta.description }}" />
+  <meta name="author" content="{{ meta.author }} - {{ meta.author_url }}" />
+  <meta name="generator" content="{{ eleventy.generator }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="{{ '/' | url }}favicon.ico" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link onload="this.onload=null;this.rel='stylesheet'" rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" />
+
+  <meta property="og:title" content="{{ page_title }}" />
+  <meta property="og:description" content="{{ meta.description }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.url | url }}" />
+  <!-- <meta property="og:image" content="{{ '/' | url }}_assets/img/og.png" /> -->
+  <meta property="og:image"
+    content="{% if img %}{{ site.baseurl }}{{ img | url }}{% else %}https://media.licdn.com/dms/image/v2/D4E03AQErpo1scZTBBg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731865418672?e=1741824000&v=beta&t=O-J1V-ARzMC7xXHXGuUDBqD6WO8Q4S1PGNZonSMm7v0{% endif %}" />
+
+  {% set css %}
+  {% include 'css/prism.css' %}
+  {% endset %}
+  <style>
+    {
+        {
+        css | cssmin | safe
       }
-    </script>
+    }
+  </style>
+  {% renderblock 'css' %}
 
-  </head>
+  <script>
+    if (localStorage.getItem('color-mode') === 'dark' || (window.matchMedia('(prefers-color-scheme: dark)').matches && !localStorage.getItem('color-mode'))) {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
 
-  <body class="bg-gray-50 text-pri-900 !block">
+</head>
 
-    <div class="min-h-screen flex-(& col) relative">
+<body class="bg-gray-50 text-pri-900 !block">
 
-      <header class="w-full flex-none">
-        <nav class="mx-auto py-8 px-4 max-w-7xl flex-(& col) items-center gap-4 md:(flex-row justify-between)">
-          <a href="{{ '/' | locale_url }}" class="group text-pri-600 flex-(& none) items-center gap-2 transform motion-safe:(transition) hover:(text-pri-500)">
-            {%- include '_logo.njk' %}
-            <strong class="text-xl font-semibold hidden md:(text-2xl tracking-tight block)">{{ meta.title }}</strong>
-          </a>
-          <ul class="flex items-center gap-4 md:(gap-10)">
-            {%- for item in collections.all | current_locale_content | eleventyNavigation %}
-            <li>
-              <a href="{{ item.url | url }}" class="flex text-pri-700 font-semibold relative motion-safe:(transition) hover:(text-pri-800) dark:(hover:(text-pri-400))">
-                {{ item.key }}
-                {% if item.url == page.url or item.url in page.url %}<b class="w-full h-[2px] bg-current absolute inset-x-0 -bottom-1 opacity-25"></b>{% endif %}
-              </a>
-            </li>
-            {%- endfor %}
-            <li>
-              <a href="{{ page.url | replace(from_lang, to_lang) | url }}" class="flex text-sec-700 font-semibold relative motion-safe:(transition) hover:(text-pri-800) dark:(hover:(text-pri-400))">
-                {% if page.lang == "fr" %}English{% endif %}
-                {% if page.lang == "en" %}Français{% endif %}
-              </a>
-            </li>
-            <li>
-              <button class="color-mode text-gray-500 motion-safe:(transition) hover:(text-gray-700)" aria-label="Toggle color mode">
-                <span class="block dark:(hidden)"><iconify-icon icon="mdi:weather-sunny" inline="false" class="iconify text-xl" noobserver></iconify-icon> <span class="sr-only">Switch to dark mode</span></span>
-                <span class="hidden dark:(block)"><iconify-icon icon="mdi:weather-night" inline="false" class="iconify text-xl" noobserver></iconify-icon> <span class="sr-only">Switch to light mode</span></span>
-              </button>
-            </li>
-          </ul>
-        </nav>
-      </header>
+  <div class="min-h-screen flex-(& col) relative">
 
-      <main class="pb-8 w-full flex-1 md:(pb-24)">
-        <section class="mx-auto px-4 max-w-7xl">
-          <div class="pt-12">
-            {{ heading({slot: title, divider: true}) }}
-            {{ content | safe }}
-          </div>
-        </section>
-      </main>
+    <header class="w-full flex-none">
+      <nav class="mx-auto py-8 px-4 max-w-7xl flex-(& col) items-center gap-4 md:(flex-row justify-between)">
+        <a href="{{ '/' | locale_url }}"
+          class="group text-pri-600 flex-(& none) items-center gap-2 transform motion-safe:(transition) hover:(text-pri-500)">
+          {%- include '_logo.njk' %}
+          <strong class="text-xl font-semibold hidden md:(text-2xl tracking-tight block)">{{ meta.title }}</strong>
+        </a>
+        <ul class="flex items-center gap-4 md:(gap-10)">
+          {%- for item in collections.all | current_locale_content | eleventyNavigation %}
+          <li>
+            <a href="{{ item.url | url }}"
+              class="flex text-pri-700 font-semibold relative motion-safe:(transition) hover:(text-pri-800) dark:(hover:(text-pri-400))">
+              {{ item.key }}
+              {% if item.url == page.url or item.url in page.url %}<b
+                class="w-full h-[2px] bg-current absolute inset-x-0 -bottom-1 opacity-25"></b>{% endif %}
+            </a>
+          </li>
+          {%- endfor %}
+          <li>
+            <a href="{{ page.url | replace(from_lang, to_lang) | url }}"
+              class="flex text-sec-700 font-semibold relative motion-safe:(transition) hover:(text-pri-800) dark:(hover:(text-pri-400))">
+              {% if page.lang == "fr" %}English{% endif %}
+              {% if page.lang == "en" %}Français{% endif %}
+            </a>
+          </li>
+          <li>
+            <button class="color-mode text-gray-500 motion-safe:(transition) hover:(text-gray-700)"
+              aria-label="Toggle color mode">
+              <span class="block dark:(hidden)"><iconify-icon icon="mdi:weather-sunny" inline="false"
+                  class="iconify text-xl" noobserver></iconify-icon> <span class="sr-only">Switch to dark
+                  mode</span></span>
+              <span class="hidden dark:(block)"><iconify-icon icon="mdi:weather-night" inline="false"
+                  class="iconify text-xl" noobserver></iconify-icon> <span class="sr-only">Switch to light
+                  mode</span></span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    </div>
+    <main class="pb-8 w-full flex-1 md:(pb-24)">
+      <section class="mx-auto px-4 max-w-7xl">
+        <div class="pt-12">
+          {{ heading({slot: title, divider: true}) }}
+          {{ content | safe }}
+        </div>
+      </section>
+    </main>
 
-    {%- renderblock 'js' %}
-    <script src="{{ '/' | url }}_assets/js/_app.js?v={% bust %}"></script>
+  </div>
 
-  </body>
+  {%- renderblock 'js' %}
+  <script src="{{ '/' | url }}_assets/js/_app.js?v={% bust %}"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    // Fonction d'initialisation du Swiper
+    function initSwiper() {
+      const swiper = new Swiper('.swiper', {
+        loop: true,
+        effect: 'fade',
+        fadeEffect: {
+          crossFade: true
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        keyboard: {
+          enabled: true,
+        },
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: true,
+          pauseOnMouseEnter: true,
+        },
+        on: {
+          init: function () {
+            setupYouTubePlayers(this);
+          }
+        }
+      });
+
+      // Redémarrage de l'autoplay quand le curseur quitte le slider
+      document.querySelector('.swiper').addEventListener('mouseleave', () => {
+        setTimeout(() => {
+          swiper.autoplay.start();
+        }, 1000);
+      });
+
+      return swiper;
+    }
+
+    // Fonction pour configurer les players YouTube
+    function setupYouTubePlayers(swiper) {
+      const youtubeSlides = document.querySelectorAll('.swiper-slide iframe[src*="youtube"]');
+
+      youtubeSlides.forEach((iframe) => {
+        if (iframe.src.indexOf('enablejsapi=1') === -1) {
+          iframe.src += (iframe.src.indexOf('?') === -1 ? '?' : '&') + 'enablejsapi=1';
+        }
+
+        new YT.Player(iframe, {
+          events: {
+            'onStateChange': function (event) {
+              if (event.data === YT.PlayerState.PLAYING) {
+                swiper.autoplay.stop();
+              }
+              if (event.data === YT.PlayerState.PAUSED ||
+                event.data === YT.PlayerState.ENDED) {
+                swiper.autoplay.start();
+              }
+            }
+          }
+        });
+      });
+    }
+
+    // Attendre que l'API YouTube soit prête
+    let swiper = null;
+    function onYouTubeIframeAPIReady() {
+      swiper = initSwiper();
+    }
+
+    // Si l'API YouTube est déjà chargée
+    if (window.YT && window.YT.Player) {
+      swiper = initSwiper();
+    }
+  </script>
+
+</body>
 
 </html>

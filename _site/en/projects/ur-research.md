@@ -6,6 +6,11 @@ action_button_text: I want to see!
 action_button_link: https://www.kaggle.com/datasets/qwertyuu/the-royal-game-of-ur-expectimax-depth-8
 eleventyComputed:
     img: "{{ '/' | url }}_assets/img/royal-ur-research.PNG"
+    images: [
+      "{{ '/' | url }}_assets/img/ur-lut-visualizer.png",
+      "{{ '/' | url }}_assets/img/ur-lut-visalizer-2.png",
+      "{{ '/' | url }}_assets/img/royal-ur-research.PNG",
+    ]
 ---
 
 

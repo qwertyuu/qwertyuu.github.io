@@ -7,6 +7,12 @@ action_button_link: https://www.youtube.com/@Boreal-IA
 tags: ["highlight"]
 eleventyComputed:
     img: "{{ '/' | url }}_assets/img/boria.jpg"
+    images: [
+        "{{ '/' | url }}_assets/img/boria.jpg",
+        "{{ '/' | url }}_assets/img/boria_raph.jpg",
+        "{{ '/' | url }}_assets/img/boria_caro.jpg",
+        "{{ '/' | url }}_assets/img/boria_etienne.jpg",
+    ]
 ---
 
 BorIA est un regroupement de passionnés de l'intelligence artificielle créé et organisé par {{link("Raphaël Côté", "/contact" | locale_url)}}, {{link("Michelle Fournier", "https://www.linkedin.com/in/michelle-fournier-02364133/")}} et {{link("Dominic Tremblay-Gagnon", "https://www.linkedin.com/in/dominic-tremblay-gagnon/")}}.

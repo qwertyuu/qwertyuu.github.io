@@ -5,7 +5,11 @@ tag: Food repertoire
 action_button_text: I want to see!
 action_button_link: https://static.raphaelcote.com/MetroVegan/
 eleventyComputed:
-    img: "{{ '/' | url }}_assets/img/metro-vegan.png"
+    img: "{{ '/' | url }}_assets/img/vegan_stock.png"
+    images: [
+        "{{ '/' | url }}_assets/img/vegan_stock.png",
+        "{{ '/' | url }}_assets/img/metro-vegan.png",
+    ]
 ---
 
 ## Origin

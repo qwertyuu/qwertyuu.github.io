@@ -5,6 +5,15 @@ tag: Création de jeux
 tags: ["highlight"]
 eleventyComputed:
     img: "{{ '/' | url }}_assets/img/totemastudio-katahdin-header.png"
+    images: [
+        "{{ '/' | url }}_assets/img/totemastudio-katahdin-header.png",
+        "{{ '/' | url }}_assets/img/frameskip.gif",
+        "{{ '/' | url }}_assets/img/totemastudio-king-of-the-trash-screenshot-01.jpg",
+        "{{ '/' | url }}_assets/img/pcb.gif",
+        "{{ '/' | url }}_assets/img/deroutes.jpg",
+        "{{ '/' | url }}_assets/img/totemastudio-badabroom-screenshot-03.jpg",
+        "{{ '/' | url }}_assets/img/mpt.png",
+    ]
 ---
 
 Je regroupe ici tous les GameJam auquel j'ai participé. La majorité sont des gamejams de l'UQAC.

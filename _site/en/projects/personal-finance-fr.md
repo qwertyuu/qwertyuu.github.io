@@ -5,7 +5,11 @@ tag: Interactive page
 action_button_text: I want to see!
 action_button_link: https://static.raphaelcote.com/FinancePersoCan/
 eleventyComputed:
-    img: "{{ '/' | url }}_assets/img/organigramme-sombre-crop.png"
+    img: "{{ '/' | url }}_assets/img/organigramme-stock.png"
+    images: [
+        "{{ '/' | url }}_assets/img/organigramme-stock.png",
+        "{{ '/' | url }}_assets/img/organigramme-sombre-crop.png",
+    ]
 ---
 
 This page presents a French translation I created and host of the "Personal Income Spending Flowchart - Canada".
