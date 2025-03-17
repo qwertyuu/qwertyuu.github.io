@@ -13,6 +13,7 @@ eleventyComputed:
         "{{ '/' | url }}_assets/img/deroutes.jpg",
         "{{ '/' | url }}_assets/img/totemastudio-badabroom-screenshot-03.jpg",
         "{{ '/' | url }}_assets/img/mpt.png",
+        "{{ '/' | url }}_assets/img/4lYG3_.png",
     ]
 ---
 
@@ -42,3 +43,7 @@ Je regroupe ici tous les GameJam auquel j'ai participé. La majorité sont des g
 ## 2024
 
 - {{link("Mon Petit Terrarium", "https://frankydess.itch.io/mon-petit-terrarium")}} - WonderJam UQAC Hiver 2024, avec amis
+
+## 2025
+
+- {{link("La ferme POYO", "https://qw3rtyuu.itch.io/la-ferme-poyo")}} - WonderJam UQAC Hiver 2025, avec amis
