@@ -34,6 +34,8 @@ My technical expertise comes with a human approach and a touch of humor.
 
 Always seeking the next challenge, I aim to put my skills to use in projects that have a concrete positive impact.
 
+**[🚀 Consulting Services - RaphTech](https://raphtech.ca/en/)** - With over 10 years of experience in development and artificial intelligence, I offer specialized consulting and development services for innovative projects.
+
 [🤝 Let's talk!]({{ "/contact" | locale_url }})
 
 

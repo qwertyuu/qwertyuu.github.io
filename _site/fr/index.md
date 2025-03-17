@@ -34,6 +34,8 @@ Mon expertise technique s'accompagne d'une approche humaine et d'une touche d'hu
 
 Toujours en quête du prochain défi, je cherche à mettre mes compétences au service de projets qui ont un impact positif concret.
 
+**[🚀 Services de consultation - RaphTech](https://raphtech.ca/fr/)** - Fort de 10 ans d'expérience en développement et en intelligence artificielle, j'offre des services de consultation et de développement spécialisés pour des projets innovants.
+
 [🤝 Venez me parler!]({{ "/contact" | locale_url }})
 
 

@@ -15,6 +15,8 @@ eleventyComputed:
 - [📄 Curriculum Vitae](https://docs.google.com/document/d/e/2PACX-1vQxpPqn2mMkbFkYExj4nroh4VHqq7Z7E5lUf3yRIoCyfZckPIe5w9_pLtqDQak-1ym3EnVc4bn83z80/pub)
 - [💻 GitHub](https://github.com/qwertyuu?tab=repositories) pour voir tout le code ouvert de source sur lequel je travaille
 - [📅 Calendly](https://calendly.com/raphaelcote/60min) pour prendre rendez-vous avec moi
+- [🚀 Services de consultation - RaphTech](https://raphtech.ca/fr/) - Fort de 10 ans d'expérience en développement et en intelligence artificielle, j'offre des services de consultation et de développement spécialisés pour des projets innovants.
+
 
 ------
 

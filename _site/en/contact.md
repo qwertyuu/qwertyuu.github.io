@@ -15,6 +15,8 @@ eleventyComputed:
 - [📄 Resume](https://docs.google.com/document/d/e/2PACX-1vQYuoGo8YtVy4i_jBryTquavljMrXXd__Km8GelNjjEmwj5d7L3vVkY34-FQwBza6iaxNuFEa9NB5jG/pub)
 - [💻 GitHub](https://github.com/qwertyuu?tab=repositories) to see all the open source code I work on
 - [📅 Calendly](https://calendly.com/raphaelcote/60min) to schedule a meeting with me
+- [🚀 Consulting Services - RaphTech](https://raphtech.ca/en/) - With over 10 years of experience in development and artificial intelligence, I offer specialized consulting and development services for innovative projects.
+
 
 ------
 
