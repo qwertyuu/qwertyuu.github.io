@@ -3,7 +3,7 @@ title: Jeu Royal d'Ur en ligne
 short_description: Un site Internet du Jeu Royal d'Ur en ligne, un jeu de société vieux de 4500 ans!
 tag: Jeu web en ligne
 action_button_text: Je veux jouer!
-action_button_link: https://ur.whnet.ca/
+action_button_link: https://ur.raphaelcote.com/
 tags: ["highlight"]
 eleventyComputed:
     img: "{{ '/' | url }}_assets/img/full_board.jpg"
