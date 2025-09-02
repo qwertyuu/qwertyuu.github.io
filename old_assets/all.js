@@ -77,7 +77,7 @@ export default {
         "projects": [
             {
                 "id": "rgu",
-                "image": "https://ur.whnet.ca/images/full_board.jpg",
+                "image": "https://ur.raphaelcote.com/images/full_board.jpg",
                 "translations": {
                     "fr": {
                         "title": "Jeu Royal d'Ur en-ligne",
@@ -90,7 +90,7 @@ export default {
                         "excerpt": "A website that allows you to play the Royal Game of Ur online, a board game that is 4500 years old! The site features the ability to play against friends, family, enemies, or if you're alone, against robots! Some robots are so good that it seems like they're cheating, such as LUT!"
                     }
                 },
-                "url": "https://ur.whnet.ca/",
+                "url": "https://ur.raphaelcote.com/",
                 "alignment": "right"
             },
             {
