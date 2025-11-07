@@ -15,7 +15,7 @@ eleventyComputed:
     ]
 ---
 
-BorIA is a group of artificial intelligence enthusiasts created and organized by {{link("Raphaël Côté", "/contact" | locale_url)}}, {{link("Michelle Fournier", "https://www.linkedin.com/in/michelle-fournier-02364133/")}} and {{link("Dominic Tremblay-Gagnon", "https://www.linkedin.com/in/dominic-tremblay-gagnon/")}}.
+BorIA is a group of artificial intelligence enthusiasts I created and actively organize.
 
 The objective is to bring together students, researchers, workers, and enthusiasts from the Saguenay Lac-Saint-Jean region so they can exchange and learn together.
 

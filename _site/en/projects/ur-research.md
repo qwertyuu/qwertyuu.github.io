@@ -22,7 +22,7 @@ eleventyComputed:
 - The world's first tool to visualize and analyze all winning strategies of the Royal Game of Ur
 - Interactive online interface: {{ link("Ur LUT Visualizer", "https://ur-lut-visualizer.raphaelcote.com/") }}
 - Major innovation in computational analysis, used by the world leading players of the Royal Game of Ur
-- Used as an official reference on the {{ link("RoyalUr.net website's Game Review functionality page", "https://royalur.net/review") }}, in the "Want to dive a bit deeper?" section
+- Used as an official reference on the {{ link("RoyalUr.net website's Game Review functionality page", "https://royalur.net/solved#open-source") }}, in the "We open-sourced the solved game" section
 
 ### Artificial Intelligence Framework for the Game of Ur
 - Complete robotic training system using the NEAT (NeuroEvolution of Augmenting Topologies) algorithm
