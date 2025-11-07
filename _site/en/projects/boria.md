@@ -3,7 +3,7 @@ title: BorIA
 short_description: A group of research and artificial intelligence enthusiasts in the region
 tag: Local community
 action_button_text: I want to learn more!
-action_button_link: https://www.youtube.com/@Boreal-IA
+action_button_link: https://boria.org
 tags: ["highlight"]
 eleventyComputed:
     img: "{{ '/' | url }}_assets/img/boria.jpg"
@@ -22,6 +22,7 @@ The objective is to bring together students, researchers, workers, and enthusias
 The format is as follows: We gather in a room and present several 15-minute presentations (or "talks") that are recorded, encouraging audience questions after each one. Afterwards, the presentations are shared on the YouTube channel.
 
 There is also:
+- {{link("An official Website", "https://boria.org")}}
 - {{link("A YouTube channel", "https://www.youtube.com/@Boreal-IA")}}
 - {{link("A Discord community", "https://discord.com/invite/MR97SWb7aq")}}
 - {{link("A Facebook page", "https://www.facebook.com/boria.saglac")}}
