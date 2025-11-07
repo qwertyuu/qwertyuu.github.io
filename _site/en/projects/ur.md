@@ -3,7 +3,7 @@ title: Royal Game of Ur Online
 short_description: An online website for the Royal Game of Ur, a 4500-year-old board game!
 tag: Online Web Game
 action_button_text: I want to play!
-action_button_link: https://ur.whnet.ca/
+action_button_link: https://ur.raphaelcote.com/
 tags: ["highlight"]
 eleventyComputed:
     img: "{{ '/' | url }}_assets/img/full_board.jpg"
